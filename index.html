@@ -1,0 +1,2569 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classic Covers - Premium Envelope Designs</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            scroll-behavior: smooth;
+        }
+        .heading {
+            font-family: 'Playfair Display', serif;
+        }
+        .hero-pattern {
+            background-color: #fff;
+            background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ff8c00' fill-opacity='0.1'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+        }
+        .envelope-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        }
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 100;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgba(0, 0, 0, 0.8);
+            transition: all 0.3s ease;
+        }
+        .modal-content {
+            margin: auto;
+            display: block;
+            max-width: 80%;
+            max-height: 80%;
+            animation: zoom 0.3s;
+        }
+        @keyframes zoom {
+            from {transform: scale(0)}
+            to {transform: scale(1)}
+        }
+        .close {
+            position: absolute;
+            top: 15px;
+            right: 35px;
+            color: #f1f1f1;
+            font-size: 40px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+        .close:hover,
+        .close:focus {
+            color: #bbb;
+            text-decoration: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <div class="flex items-center space-x-2">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-orange-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                </svg>
+                <span class="text-2xl font-bold heading text-gray-800">Classic <span class="text-orange-500">Covers</span></span>
+            </div>
+            <div class="hidden md:flex space-x-8">
+                <a href="#" class="text-gray-800 hover:text-orange-500 font-medium">Home</a>
+                <a href="#categories" class="text-gray-800 hover:text-orange-500 font-medium">Categories</a>
+                <a href="#about" class="text-gray-800 hover:text-orange-500 font-medium">About Us</a>
+                <a href="#contact" class="text-gray-800 hover:text-orange-500 font-medium">Contact</a>
+            </div>
+            <div class="md:hidden">
+                <button id="menu-toggle" class="text-gray-800 focus:outline-none">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <!-- Mobile menu -->
+        <div id="mobile-menu" class="md:hidden hidden bg-white pb-4 px-4">
+            <a href="#" class="block py-2 text-gray-800 hover:text-orange-500 font-medium">Home</a>
+            <a href="#categories" class="block py-2 text-gray-800 hover:text-orange-500 font-medium">Categories</a>
+            <a href="#about" class="block py-2 text-gray-800 hover:text-orange-500 font-medium">About Us</a>
+            <a href="#contact" class="block py-2 text-gray-800 hover:text-orange-500 font-medium">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-pattern py-20 md:py-28">
+        <div class="container mx-auto px-4 flex flex-col md:flex-row items-center">
+            <div class="md:w-1/2 mb-10 md:mb-0">
+                <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold heading leading-tight text-gray-800">Elegant <span class="text-orange-500">Envelope</span> Designs for Every Occasion</h1>
+                <p class="mt-4 text-lg text-gray-600 max-w-lg">Discover our premium collection of beautifully crafted envelope covers in various sizes and opening styles.</p>
+                <div class="mt-8 flex flex-wrap gap-4">
+                    <a href="#categories" class="px-6 py-3 bg-orange-500 text-white font-medium rounded-md hover:bg-orange-600 transition duration-300 shadow-lg">Browse Collection</a>
+                    <a href="#contact" class="px-6 py-3 bg-white text-orange-500 font-medium rounded-md border border-orange-500 hover:bg-orange-50 transition duration-300">Contact Us</a>
+                </div>
+            </div>
+            <div class="md:w-1/2 flex justify-center">
+                <div class="relative">
+                    <div class="absolute -top-4 -left-4 w-64 h-64 bg-orange-200 rounded-full opacity-50"></div>
+                    <div class="relative z-10 bg-white p-2 rounded-lg shadow-xl transform rotate-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-64 w-64 text-orange-500" viewBox="0 0 20 20" fill="currentColor">
+                            <path d="M2.94 6.412A2 2 0 002 8.108V16a2 2 0 002 2h12a2 2 0 002-2V8.108a2 2 0 00-.94-1.696l-6-3.75a2 2 0 00-2.12 0l-6 3.75zm2.615 2.423a1 1 0 10-1.11 1.664l5 3.333a1 1 0 001.11 0l5-3.333a1 1 0 00-1.11-1.664L10 11.798 5.555 8.835z" />
+                        </svg>
+                    </div>
+                    <div class="absolute -bottom-4 -right-4 w-40 h-40 bg-orange-100 rounded-full opacity-70"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold heading text-gray-800">Why Choose <span class="text-orange-500">Classic Covers</span>?</h2>
+                <div class="w-24 h-1 bg-orange-500 mx-auto mt-4"></div>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="p-6 bg-orange-50 rounded-lg text-center">
+                    <div class="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-orange-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-2">Premium Quality</h3>
+                    <p class="text-gray-600">Our envelopes are crafted with the finest materials for a luxurious feel and finish.</p>
+                </div>
+                <div class="p-6 bg-orange-50 rounded-lg text-center">
+                    <div class="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-orange-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-2">Custom Designs</h3>
+                    <p class="text-gray-600">Choose from a wide range of designs or request custom artwork for your special occasion.</p>
+                </div>
+                <div class="p-6 bg-orange-50 rounded-lg text-center">
+                    <div class="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-orange-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-2">Multiple Sizes</h3>
+                    <p class="text-gray-600">Available in various sizes with top-open and side-open options to perfectly fit your needs.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section id="categories" class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold heading text-gray-800">Explore Our <span class="text-orange-500">Collection</span></h2>
+                <div class="w-24 h-1 bg-orange-500 mx-auto mt-4"></div>
+                <p class="mt-4 text-gray-600 max-w-2xl mx-auto">Browse through our extensive collection of envelope designs in various sizes and opening styles.</p>
+            </div>
+
+            <!-- Categories Navigation -->
+            <div class="mb-8">
+                <h3 class="text-lg font-semibold mb-3 text-center">Categories</h3>
+                <div class="flex flex-wrap justify-center gap-3">
+                    <button class="category-btn active px-4 py-2 rounded-full bg-orange-500 text-white font-medium text-sm" data-category="all">All Sizes</button>
+                    <button class="category-btn px-4 py-2 rounded-full bg-white text-gray-700 font-medium border border-gray-300 hover:bg-orange-50 text-sm" data-category="6x4">6x4</button>
+                    <button class="category-btn px-4 py-2 rounded-full bg-white text-gray-700 font-medium border border-gray-300 hover:bg-orange-50 text-sm" data-category="7x5">7x5</button>
+                    <button class="category-btn px-4 py-2 rounded-full bg-white text-gray-700 font-medium border border-gray-300 hover:bg-orange-50 text-sm" data-category="8x5">8x5</button>
+                    <button class="category-btn px-4 py-2 rounded-full bg-white text-gray-700 font-medium border border-gray-300 hover:bg-orange-50 text-sm" data-category="9x6">9x6</button>
+                    <button class="category-btn px-4 py-2 rounded-full bg-white text-gray-700 font-medium border border-gray-300 hover:bg-orange-50 text-sm" data-category="6x8">6x8</button>
+                    <button class="category-btn px-4 py-2 rounded-full bg-white text-gray-700 font-medium border border-gray-300 hover:bg-orange-50 text-sm" data-category="8x4">8x4</button>
+                    <button class="category-btn px-4 py-2 rounded-full bg-white text-gray-700 font-medium border border-gray-300 hover:bg-orange-50 text-sm" data-category="6x6">6x6</button>
+                    <button class="category-btn px-4 py-2 rounded-full bg-white text-gray-700 font-medium border border-gray-300 hover:bg-orange-50 text-sm" data-category="passport">Passport Covers</button>
+                    <button class="category-btn px-4 py-2 rounded-full bg-white text-gray-700 font-medium border border-gray-300 hover:bg-orange-50 text-sm" data-category="gift">Gift Covers</button>
+                    <button class="category-btn px-4 py-2 rounded-full bg-white text-gray-700 font-medium border border-gray-300 hover:bg-orange-50 text-sm" data-category="wrong">Wrong Sizes</button>
+                </div>
+            </div>
+
+            <!-- Opening Style Filters (Hidden by default) -->
+            <div id="opening-filters" class="mb-8 hidden">
+                <h3 class="text-lg font-semibold mb-3 text-center">Opening Style</h3>
+                <div class="flex flex-wrap justify-center gap-4">
+                    <button class="opening-btn active px-5 py-2 rounded-md bg-orange-500 text-white font-medium" data-opening="all">All Styles</button>
+                    <button class="opening-btn px-5 py-2 rounded-md bg-gray-100 text-gray-700 font-medium hover:bg-orange-100" data-opening="top">Top-Open</button>
+                    <button class="opening-btn px-5 py-2 rounded-md bg-gray-100 text-gray-700 font-medium hover:bg-orange-100" data-opening="side">Side-Open</button>
+                </div>
+            </div>
+
+            <!-- Envelope Gallery -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6" id="envelope-gallery">
+                <!-- 6x4 Envelopes side-->
+                <div class="envelope-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 cursor-pointer" data-category="6x4" data-opening="side">
+                    <div class="h-48 bg-orange-100 relative overflow-hidden envelope-image">
+                        <img src="Y-98.jpg" alt="Traditional Floral Envelope" class="absolute inset-0 h-full w-full object-cover" />
+                        <div class="absolute bottom-2 right-2 bg-white px-2 py-1 rounded text-xs font-medium">6x4</div>
+                        <div class="absolute top-2 left-2 bg-blue-500 text-white px-2 py-1 rounded-full text-xs font-medium">Side-Open</div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Classic Floral</h3>
+                        <p class="text-sm text-gray-600">Wedding Invitation</p>
+                        <div class="mt-3 flex justify-between items-center">
+                            <span class="text-orange-500 font-medium">₹45.00</span>
+                            <span class="text-xs bg-orange-100 text-orange-700 px-3 py-1 rounded">View Details</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="envelope-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 cursor-pointer" data-category="6x4" data-opening="side">
+                    <div class="h-48 bg-orange-100 relative overflow-hidden envelope-image">
+                        <img src="6x4 -162.jpg" alt="Traditional Floral Envelope" class="absolute inset-0 h-full w-full object-cover" />
+                        <div class="absolute bottom-2 right-2 bg-white px-2 py-1 rounded text-xs font-medium">6x4</div>
+                        <div class="absolute top-2 left-2 bg-blue-500 text-white px-2 py-1 rounded-full text-xs font-medium">Side-Open</div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Classic Floral</h3>
+                        <p class="text-sm text-gray-600">Wedding Invitation</p>
+                        <div class="mt-3 flex justify-between items-center">
+                            <span class="text-orange-500 font-medium">₹45.00</span>
+                            <span class="text-xs bg-orange-100 text-orange-700 px-3 py-1 rounded">View Details</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="envelope-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 cursor-pointer" data-category="6x4" data-opening="side">
+                    <div class="h-48 bg-orange-100 relative overflow-hidden envelope-image">
+                        <img src="6x4 inivtion 163.jpg" alt="Traditional Floral Envelope" class="absolute inset-0 h-full w-full object-cover" />
+
+                        <div class="absolute bottom-2 right-2 bg-white px-2 py-1 rounded text-xs font-medium">6x4</div>
+                        <div class="absolute top-2 left-2 bg-blue-500 text-white px-2 py-1 rounded-full text-xs font-medium">Side-Open</div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Classic Floral</h3>
+                        <p class="text-sm text-gray-600">Wedding Invitation</p>
+                        <div class="mt-3 flex justify-between items-center">
+                            <span class="text-orange-500 font-medium">₹45.00</span>
+                            <span class="text-xs bg-orange-100 text-orange-700 px-3 py-1 rounded">View Details</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="envelope-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 cursor-pointer" data-category="6x4" data-opening="side">
+                    <div class="h-48 bg-orange-100 relative overflow-hidden envelope-image">
+                        <img src="6x4 Y - annaprasana 160A.jpg" alt="Traditional Floral Envelope" class="absolute inset-0 h-full w-full object-cover" />
+                        <div class="absolute bottom-2 right-2 bg-white px-2 py-1 rounded text-xs font-medium">6x4</div>
+                        <div class="absolute top-2 left-2 bg-blue-500 text-white px-2 py-1 rounded-full text-xs font-medium">Side-Open</div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Classic Floral</h3>
+                        <p class="text-sm text-gray-600">Wedding Invitation</p>
+                        <div class="mt-3 flex justify-between items-center">
+                            <span class="text-orange-500 font-medium">₹45.00</span>
+                            <span class="text-xs bg-orange-100 text-orange-700 px-3 py-1 rounded">View Details</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="envelope-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 cursor-pointer" data-category="6x4" data-opening="side">
+                    <div class="h-48 bg-orange-100 relative overflow-hidden envelope-image">
+                        <img src="6x4 Y_207.jpg" alt="Traditional Floral Envelope" class="absolute inset-0 h-full w-full object-cover" />
+
+                        <div class="absolute bottom-2 right-2 bg-white px-2 py-1 rounded text-xs font-medium">6x4</div>
+                        <div class="absolute top-2 left-2 bg-blue-500 text-white px-2 py-1 rounded-full text-xs font-medium">Side-Open</div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Classic Floral</h3>
+                        <p class="text-sm text-gray-600">Wedding Invitation</p>
+                        <div class="mt-3 flex justify-between items-center">
+                            <span class="text-orange-500 font-medium">₹45.00</span>
+                            <span class="text-xs bg-orange-100 text-orange-700 px-3 py-1 rounded">View Details</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="envelope-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 cursor-pointer" data-category="6x4" data-opening="side">
+                    <div class="h-48 bg-orange-100 relative overflow-hidden envelope-image">
+                        <img src="6x4 Y_215.jpg" alt="Traditional Floral Envelope" class="absolute inset-0 h-full w-full object-cover" />
+                        <div class="absolute bottom-2 right-2 bg-white px-2 py-1 rounded text-xs font-medium">6x4</div>
+                        <div class="absolute top-2 left-2 bg-blue-500 text-white px-2 py-1 rounded-full text-xs font-medium">Side-Open</div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Classic Floral</h3>
+                        <p class="text-sm text-gray-600">Wedding Invitation</p>
+                        <div class="mt-3 flex justify-between items-center">
+                            <span class="text-orange-500 font-medium">₹45.00</span>
+                            <span class="text-xs bg-orange-100 text-orange-700 px-3 py-1 rounded">View Details</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="envelope-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 cursor-pointer" data-category="6x4" data-opening="side">
+                    <div class="h-48 bg-orange-100 relative overflow-hidden envelope-image">
+                        <img src="Copy (2) of 110 copy.jpg" alt="Traditional Floral Envelope" class="absolute inset-0 h-full w-full object-cover" />
+                        <div class="absolute bottom-2 right-2 bg-white px-2 py-1 rounded text-xs font-medium">6x4</div>
+                        <div class="absolute top-2 left-2 bg-blue-500 text-white px-2 py-1 rounded-full text-xs font-medium">Side-Open</div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Classic Floral</h3>
+                        <p class="text-sm text-gray-600">Wedding Invitation</p>
+                        <div class="mt-3 flex justify-between items-center">
+                            <span class="text-orange-500 font-medium">₹45.00</span>
+                            <span class="text-xs bg-orange-100 text-orange-700 px-3 py-1 rounded">View Details</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="envelope-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 cursor-pointer" data-category="6x4" data-opening="side">
+                    <div class="h-48 bg-orange-100 relative overflow-hidden envelope-image">
+                        <img src="Copy (2) of Maxi Y_03.jpg" alt="Traditional Floral Envelope" class="absolute inset-0 h-full w-full object-cover" />
+                        <div class="absolute bottom-2 right-2 bg-white px-2 py-1 rounded text-xs font-medium">6x4</div>
+                        <div class="absolute top-2 left-2 bg-blue-500 text-white px-2 py-1 rounded-full text-xs font-medium">Side-Open</div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Classic Floral</h3>
+                        <p class="text-sm text-gray-600">Wedding Invitation</p>
+                        <div class="mt-3 flex justify-between items-center">
+                            <span class="text-orange-500 font-medium">₹45.00</span>
+                            <span class="text-xs bg-orange-100 text-orange-700 px-3 py-1 rounded">View Details</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="envelope-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 cursor-pointer" data-category="6x4" data-opening="side">
+                    <div class="h-48 bg-orange-100 relative overflow-hidden envelope-image">
+                        <img src="Copy of Copy of Maxi _ 96 copy.jpg" alt="Traditional Floral Envelope" class="absolute inset-0 h-full w-full object-cover" />
+                        <div class="absolute bottom-2 right-2 bg-white px-2 py-1 rounded text-xs font-medium">6x4</div>
+                        <div class="absolute top-2 left-2 bg-blue-500 text-white px-2 py-1 rounded-full text-xs font-medium">Side-Open</div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Classic Floral</h3>
+                        <p class="text-sm text-gray-600">Wedding Invitation</p>
+                        <div class="mt-3 flex justify-between items-center">
+                            <span class="text-orange-500 font-medium">₹45.00</span>
+                            <span class="text-xs bg-orange-100 text-orange-700 px-3 py-1 rounded">View Details</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="envelope-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 cursor-pointer" data-category="6x4" data-opening="side">
+                    <div class="h-48 bg-orange-100 relative overflow-hidden envelope-image">
+                        <img src="Copy of Maxi Y_01.jpg" alt="Traditional Floral Envelope" class="absolute inset-0 h-full w-full object-cover" />
+                        <div class="absolute bottom-2 right-2 bg-white px-2 py-1 rounded text-xs font-medium">6x4</div>
+                        <div class="absolute top-2 left-2 bg-blue-500 text-white px-2 py-1 rounded-full text-xs font-medium">Side-Open</div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Classic Floral</h3>
+                        <p class="text-sm text-gray-600">Wedding Invitation</p>
+                        <div class="mt-3 flex justify-between items-center">
+                            <span class="text-orange-500 font-medium">₹45.00</span>
+                            <span class="text-xs bg-orange-100 text-orange-700 px-3 py-1 rounded">View Details</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="envelope-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 cursor-pointer" data-category="6x4" data-opening="side">
+                    <div class="h-48 bg-orange-100 relative overflow-hidden envelope-image">
+                        <img src="Copy of Maxi Y_32 copy.jpg" alt="Traditional Floral Envelope" class="absolute inset-0 h-full w-full object-cover" />
+                        <div class="absolute bottom-2 right-2 bg-white px-2 py-1 rounded text-xs font-medium">6x4</div>
+                        <div class="absolute top-2 left-2 bg-blue-500 text-white px-2 py-1 rounded-full text-xs font-medium">Side-Open</div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Classic Floral</h3>
+                        <p class="text-sm text-gray-600">Wedding Invitation</p>
+                        <div class="mt-3 flex justify-between items-center">
+                            <span class="text-orange-500 font-medium">₹45.00</span>
+                            <span class="text-xs bg-orange-100 text-orange-700 px-3 py-1 rounded">View Details</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="envelope-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 cursor-pointer" data-category="6x4" data-opening="side">
+                    <div class="h-48 bg-orange-100 relative overflow-hidden envelope-image">
+                        <img src="Maxi _ 62.jpg" alt="Traditional Floral Envelope" class="absolute inset-0 h-full w-full object-cover" />
+                        <div class="absolute bottom-2 right-2 bg-white px-2 py-1 rounded text-xs font-medium">6x4</div>
+                        <div class="absolute top-2 left-2 bg-blue-500 text-white px-2 py-1 rounded-full text-xs font-medium">Side-Open</div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Classic Floral</h3>
+                        <p class="text-sm text-gray-600">Wedding Invitation</p>
+                        <div class="mt-3 flex justify-between items-center">
+                            <span class="text-orange-500 font-medium">₹45.00</span>
+                            <span class="text-xs bg-orange-100 text-orange-700 px-3 py-1 rounded">View Details</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="envelope-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 cursor-pointer" data-category="6x4" data-opening="side">
+                    <div class="h-48 bg-orange-100 relative overflow-hidden envelope-image">
+                        <img src="Maxi _ 65.jpg" alt="Traditional Floral Envelope" class="absolute inset-0 h-full w-full object-cover" />
+                        <div class="absolute bottom-2 right-2 bg-white px-2 py-1 rounded text-xs font-medium">6x4</div>
+                        <div class="absolute top-2 left-2 bg-blue-500 text-white px-2 py-1 rounded-full text-xs font-medium">Side-Open</div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Classic Floral</h3>
+                        <p class="text-sm text-gray-600">Wedding Invitation</p>
+                        <div class="mt-3 flex justify-between items-center">
+                            <span class="text-orange-500 font-medium">₹45.00</span>
+                            <span class="text-xs bg-orange-100 text-orange-700 px-3 py-1 rounded">View Details</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="envelope-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 cursor-pointer" data-category="6x4" data-opening="side">
+                    <div class="h-48 bg-orange-100 relative overflow-hidden envelope-image">
+                        <img src="Maxi Y_22.jpg" alt="Traditional Floral Envelope" class="absolute inset-0 h-full w-full object-cover" />
+                        <div class="absolute bottom-2 right-2 bg-white px-2 py-1 rounded text-xs font-medium">6x4</div>
+                        <div class="absolute top-2 left-2 bg-blue-500 text-white px-2 py-1 rounded-full text-xs font-medium">Side-Open</div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Classic Floral</h3>
+                        <p class="text-sm text-gray-600">Wedding Invitation</p>
+                        <div class="mt-3 flex justify-between items-center">
+                            <span class="text-orange-500 font-medium">₹45.00</span>
+                            <span class="text-xs bg-orange-100 text-orange-700 px-3 py-1 rounded">View Details</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="envelope-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 cursor-pointer" data-category="6x4" data-opening="side">
+                    <div class="h-48 bg-orange-100 relative overflow-hidden envelope-image">
+                        <img src="Maxi Y_23.jpg" alt="Traditional Floral Envelope" class="absolute inset-0 h-full w-full object-cover" />
+                        <div class="absolute bottom-2 right-2 bg-white px-2 py-1 rounded text-xs font-medium">6x4</div>
+                        <div class="absolute top-2 left-2 bg-blue-500 text-white px-2 py-1 rounded-full text-xs font-medium">Side-Open</div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Classic Floral</h3>
+                        <p class="text-sm text-gray-600">Wedding Invitation</p>
+                        <div class="mt-3 flex justify-between items-center">
+                            <span class="text-orange-500 font-medium">₹45.00</span>
+                            <span class="text-xs bg-orange-100 text-orange-700 px-3 py-1 rounded">View Details</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="envelope-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 cursor-pointer" data-category="6x4" data-opening="side">
+                    <div class="h-48 bg-orange-100 relative overflow-hidden envelope-image">
+                        <img src="Maxi Y_32 copy.jpg" alt="Traditional Floral Envelope" class="absolute inset-0 h-full w-full object-cover" />
+                        <div class="absolute bottom-2 right-2 bg-white px-2 py-1 rounded text-xs font-medium">6x4</div>
+                        <div class="absolute top-2 left-2 bg-blue-500 text-white px-2 py-1 rounded-full text-xs font-medium">Side-Open</div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Classic Floral</h3>
+                        <p class="text-sm text-gray-600">Wedding Invitation</p>
+                        <div class="mt-3 flex justify-between items-center">
+                            <span class="text-orange-500 font-medium">₹45.00</span>
+                            <span class="text-xs bg-orange-100 text-orange-700 px-3 py-1 rounded">View Details</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="envelope-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 cursor-pointer" data-category="6x4" data-opening="side">
+                    <div class="h-48 bg-orange-100 relative overflow-hidden envelope-image">
+                        <img src="Maxi Y_44.jpg" alt="Traditional Floral Envelope" class="absolute inset-0 h-full w-full object-cover" />
+                        <div class="absolute bottom-2 right-2 bg-white px-2 py-1 rounded text-xs font-medium">6x4</div>
+                        <div class="absolute top-2 left-2 bg-blue-500 text-white px-2 py-1 rounded-full text-xs font-medium">Side-Open</div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Classic Floral</h3>
+                        <p class="text-sm text-gray-600">Wedding Invitation</p>
+                        <div class="mt-3 flex justify-between items-center">
+                            <span class="text-orange-500 font-medium">₹45.00</span>
+                            <span class="text-xs bg-orange-100 text-orange-700 px-3 py-1 rounded">View Details</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="envelope-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 cursor-pointer" data-category="6x4" data-opening="side">
+                    <div class="h-48 bg-orange-100 relative overflow-hidden envelope-image">
+                        <img src="Maxi Y_56.jpg" alt="Traditional Floral Envelope" class="absolute inset-0 h-full w-full object-cover" />
+                        <div class="absolute bottom-2 right-2 bg-white px-2 py-1 rounded text-xs font-medium">6x4</div>
+                        <div class="absolute top-2 left-2 bg-blue-500 text-white px-2 py-1 rounded-full text-xs font-medium">Side-Open</div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Classic Floral</h3>
+                        <p class="text-sm text-gray-600">Wedding Invitation</p>
+                        <div class="mt-3 flex justify-between items-center">
+                            <span class="text-orange-500 font-medium">₹45.00</span>
+                            <span class="text-xs bg-orange-100 text-orange-700 px-3 py-1 rounded">View Details</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="envelope-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 cursor-pointer" data-category="6x4" data-opening="side">
+                    <div class="h-48 bg-orange-100 relative overflow-hidden envelope-image">
+                        <img src="Maxi Y_New 2A.jpg" alt="Traditional Floral Envelope" class="absolute inset-0 h-full w-full object-cover" />
+                        <div class="absolute bottom-2 right-2 bg-white px-2 py-1 rounded text-xs font-medium">6x4</div>
+                        <div class="absolute top-2 left-2 bg-blue-500 text-white px-2 py-1 rounded-full text-xs font-medium">Side-Open</div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Classic Floral</h3>
+                        <p class="text-sm text-gray-600">Wedding Invitation</p>
+                        <div class="mt-3 flex justify-between items-center">
+                            <span class="text-orange-500 font-medium">₹45.00</span>
+                            <span class="text-xs bg-orange-100 text-orange-700 px-3 py-1 rounded">View Details</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="envelope-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 cursor-pointer" data-category="6x4" data-opening="side">
+                    <div class="h-48 bg-orange-100 relative overflow-hidden envelope-image">
+                        <img src="maxi Y-81 copy.jpg" alt="Traditional Floral Envelope" class="absolute inset-0 h-full w-full object-cover" />
+                        <div class="absolute bottom-2 right-2 bg-white px-2 py-1 rounded text-xs font-medium">6x4</div>
+                        <div class="absolute top-2 left-2 bg-blue-500 text-white px-2 py-1 rounded-full text-xs font-medium">Side-Open</div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Classic Floral</h3>
+                        <p class="text-sm text-gray-600">Wedding Invitation</p>
+                        <div class="mt-3 flex justify-between items-center">
+                            <span class="text-orange-500 font-medium">₹45.00</span>
+                            <span class="text-xs bg-orange-100 text-orange-700 px-3 py-1 rounded">View Details</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="envelope-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 cursor-pointer" data-category="6x4" data-opening="side">
+                    <div class="h-48 bg-orange-100 relative overflow-hidden envelope-image">
+                        <img src="Maxi_70 copy.jpg" alt="Traditional Floral Envelope" class="absolute inset-0 h-full w-full object-cover" />
+                        <div class="absolute bottom-2 right-2 bg-white px-2 py-1 rounded text-xs font-medium">6x4</div>
+                        <div class="absolute top-2 left-2 bg-blue-500 text-white px-2 py-1 rounded-full text-xs font-medium">Side-Open</div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Classic Floral</h3>
+                        <p class="text-sm text-gray-600">Wedding Invitation</p>
+                        <div class="mt-3 flex justify-between items-center">
+                            <span class="text-orange-500 font-medium">₹45.00</span>
+                            <span class="text-xs bg-orange-100 text-orange-700 px-3 py-1 rounded">View Details</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="envelope-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 cursor-pointer" data-category="6x4" data-opening="side">
+                    <div class="h-48 bg-orange-100 relative overflow-hidden envelope-image">
+                        <img src="Maxi_83 copy.jpg" alt="Traditional Floral Envelope" class="absolute inset-0 h-full w-full object-cover" />
+                        <div class="absolute bottom-2 right-2 bg-white px-2 py-1 rounded text-xs font-medium">6x4</div>
+                        <div class="absolute top-2 left-2 bg-blue-500 text-white px-2 py-1 rounded-full text-xs font-medium">Side-Open</div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Classic Floral</h3>
+                        <p class="text-sm text-gray-600">Wedding Invitation</p>
+                        <div class="mt-3 flex justify-between items-center">
+                            <span class="text-orange-500 font-medium">₹45.00</span>
+                            <span class="text-xs bg-orange-100 text-orange-700 px-3 py-1 rounded">View Details</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="envelope-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 cursor-pointer" data-category="6x4" data-opening="side">
+                    <div class="h-48 bg-orange-100 relative overflow-hidden envelope-image">
+                        <img src="Maxi_84.jpg" alt="Traditional Floral Envelope" class="absolute inset-0 h-full w-full object-cover" />
+                        <div class="absolute bottom-2 right-2 bg-white px-2 py-1 rounded text-xs font-medium">6x4</div>
+                        <div class="absolute top-2 left-2 bg-blue-500 text-white px-2 py-1 rounded-full text-xs font-medium">Side-Open</div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Classic Floral</h3>
+                        <p class="text-sm text-gray-600">Wedding Invitation</p>
+                        <div class="mt-3 flex justify-between items-center">
+                            <span class="text-orange-500 font-medium">₹45.00</span>
+                            <span class="text-xs bg-orange-100 text-orange-700 px-3 py-1 rounded">View Details</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="envelope-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 cursor-pointer" data-category="6x4" data-opening="side">
+                    <div class="h-48 bg-orange-100 relative overflow-hidden envelope-image">
+                        <img src="Maxi_86.jpg" alt="Traditional Floral Envelope" class="absolute inset-0 h-full w-full object-cover" />
+                        <div class="absolute bottom-2 right-2 bg-white px-2 py-1 rounded text-xs font-medium">6x4</div>
+                        <div class="absolute top-2 left-2 bg-blue-500 text-white px-2 py-1 rounded-full text-xs font-medium">Side-Open</div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Classic Floral</h3>
+                        <p class="text-sm text-gray-600">Wedding Invitation</p>
+                        <div class="mt-3 flex justify-between items-center">
+                            <span class="text-orange-500 font-medium">₹45.00</span>
+                            <span class="text-xs bg-orange-100 text-orange-700 px-3 py-1 rounded">View Details</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="envelope-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 cursor-pointer" data-category="6x4" data-opening="side">
+                    <div class="h-48 bg-orange-100 relative overflow-hidden envelope-image">
+                        <img src="Maxi_88.jpg" alt="Traditional Floral Envelope" class="absolute inset-0 h-full w-full object-cover" />
+                        <div class="absolute bottom-2 right-2 bg-white px-2 py-1 rounded text-xs font-medium">6x4</div>
+                        <div class="absolute top-2 left-2 bg-blue-500 text-white px-2 py-1 rounded-full text-xs font-medium">Side-Open</div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Classic Floral</h3>
+                        <p class="text-sm text-gray-600">Wedding Invitation</p>
+                        <div class="mt-3 flex justify-between items-center">
+                            <span class="text-orange-500 font-medium">₹45.00</span>
+                            <span class="text-xs bg-orange-100 text-orange-700 px-3 py-1 rounded">View Details</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="envelope-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 cursor-pointer" data-category="6x4" data-opening="side">
+                    <div class="h-48 bg-orange-100 relative overflow-hidden envelope-image">
+                        <img src="Maxi_101.jpg" alt="Traditional Floral Envelope" class="absolute inset-0 h-full w-full object-cover" />
+                        <div class="absolute bottom-2 right-2 bg-white px-2 py-1 rounded text-xs font-medium">6x4</div>
+                        <div class="absolute top-2 left-2 bg-blue-500 text-white px-2 py-1 rounded-full text-xs font-medium">Side-Open</div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Classic Floral</h3>
+                        <p class="text-sm text-gray-600">Wedding Invitation</p>
+                        <div class="mt-3 flex justify-between items-center">
+                            <span class="text-orange-500 font-medium">₹45.00</span>
+                            <span class="text-xs bg-orange-100 text-orange-700 px-3 py-1 rounded">View Details</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="envelope-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 cursor-pointer" data-category="6x4" data-opening="side">
+                    <div class="h-48 bg-orange-100 relative overflow-hidden envelope-image">
+                        <img src="Maxi_106.jpg" alt="Traditional Floral Envelope" class="absolute inset-0 h-full w-full object-cover" />
+                        <div class="absolute bottom-2 right-2 bg-white px-2 py-1 rounded text-xs font-medium">6x4</div>
+                        <div class="absolute top-2 left-2 bg-blue-500 text-white px-2 py-1 rounded-full text-xs font-medium">Side-Open</div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Classic Floral</h3>
+                        <p class="text-sm text-gray-600">Wedding Invitation</p>
+                        <div class="mt-3 flex justify-between items-center">
+                            <span class="text-orange-500 font-medium">₹45.00</span>
+                            <span class="text-xs bg-orange-100 text-orange-700 px-3 py-1 rounded">View Details</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="envelope-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 cursor-pointer" data-category="6x4" data-opening="side">
+                    <div class="h-48 bg-orange-100 relative overflow-hidden envelope-image">
+                        <img src="Maxi_109.jpg" alt="Traditional Floral Envelope" class="absolute inset-0 h-full w-full object-cover" />
+                        <div class="absolute bottom-2 right-2 bg-white px-2 py-1 rounded text-xs font-medium">6x4</div>
+                        <div class="absolute top-2 left-2 bg-blue-500 text-white px-2 py-1 rounded-full text-xs font-medium">Side-Open</div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Classic Floral</h3>
+                        <p class="text-sm text-gray-600">Wedding Invitation</p>
+                        <div class="mt-3 flex justify-between items-center">
+                            <span class="text-orange-500 font-medium">₹45.00</span>
+                            <span class="text-xs bg-orange-100 text-orange-700 px-3 py-1 rounded">View Details</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="envelope-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 cursor-pointer" data-category="6x4" data-opening="side">
+                    <div class="h-48 bg-orange-100 relative overflow-hidden envelope-image">
+                        <img src="Y_200 A copy.jpg" alt="Traditional Floral Envelope" class="absolute inset-0 h-full w-full object-cover" />
+                        <div class="absolute bottom-2 right-2 bg-white px-2 py-1 rounded text-xs font-medium">6x4</div>
+                        <div class="absolute top-2 left-2 bg-blue-500 text-white px-2 py-1 rounded-full text-xs font-medium">Side-Open</div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Classic Floral</h3>
+                        <p class="text-sm text-gray-600">Wedding Invitation</p>
+                        <div class="mt-3 flex justify-between items-center">
+                            <span class="text-orange-500 font-medium">₹45.00</span>
+                            <span class="text-xs bg-orange-100 text-orange-700 px-3 py-1 rounded">View Details</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="envelope-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 cursor-pointer" data-category="6x4" data-opening="side">
+                    <div class="h-48 bg-orange-100 relative overflow-hidden envelope-image">
+                        <img src="Y_211.jpg" alt="Traditional Floral Envelope" class="absolute inset-0 h-full w-full object-cover" />
+                        <div class="absolute bottom-2 right-2 bg-white px-2 py-1 rounded text-xs font-medium">6x4</div>
+                        <div class="absolute top-2 left-2 bg-blue-500 text-white px-2 py-1 rounded-full text-xs font-medium">Side-Open</div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Classic Floral</h3>
+                        <p class="text-sm text-gray-600">Wedding Invitation</p>
+                        <div class="mt-3 flex justify-between items-center">
+                            <span class="text-orange-500 font-medium">₹45.00</span>
+                            <span class="text-xs bg-orange-100 text-orange-700 px-3 py-1 rounded">View Details</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="envelope-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 cursor-pointer" data-category="6x4" data-opening="side">
+                    <div class="h-48 bg-orange-100 relative overflow-hidden envelope-image">
+                        <img src="Y_213.jpg" alt="Traditional Floral Envelope" class="absolute inset-0 h-full w-full object-cover" />
+                        <div class="absolute bottom-2 right-2 bg-white px-2 py-1 rounded text-xs font-medium">6x4</div>
+                        <div class="absolute top-2 left-2 bg-blue-500 text-white px-2 py-1 rounded-full text-xs font-medium">Side-Open</div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Classic Floral</h3>
+                        <p class="text-sm text-gray-600">Wedding Invitation</p>
+                        <div class="mt-3 flex justify-between items-center">
+                            <span class="text-orange-500 font-medium">₹45.00</span>
+                            <span class="text-xs bg-orange-100 text-orange-700 px-3 py-1 rounded">View Details</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="envelope-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 cursor-pointer" data-category="6x4" data-opening="side">
+                    <div class="h-48 bg-orange-100 relative overflow-hidden envelope-image">
+                        <img src="Y_216.jpg" alt="Traditional Floral Envelope" class="absolute inset-0 h-full w-full object-cover" />
+                        <div class="absolute bottom-2 right-2 bg-white px-2 py-1 rounded text-xs font-medium">6x4</div>
+                        <div class="absolute top-2 left-2 bg-blue-500 text-white px-2 py-1 rounded-full text-xs font-medium">Side-Open</div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Classic Floral</h3>
+                        <p class="text-sm text-gray-600">Wedding Invitation</p>
+                        <div class="mt-3 flex justify-between items-center">
+                            <span class="text-orange-500 font-medium">₹45.00</span>
+                            <span class="text-xs bg-orange-100 text-orange-700 px-3 py-1 rounded">View Details</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="envelope-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 cursor-pointer" data-category="6x4" data-opening="side">
+                    <div class="h-48 bg-orange-100 relative overflow-hidden envelope-image">
+                        <img src="Y_300 copy.jpg" alt="Traditional Floral Envelope" class="absolute inset-0 h-full w-full object-cover" />
+                        <div class="absolute bottom-2 right-2 bg-white px-2 py-1 rounded text-xs font-medium">6x4</div>
+                        <div class="absolute top-2 left-2 bg-blue-500 text-white px-2 py-1 rounded-full text-xs font-medium">Side-Open</div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Classic Floral</h3>
+                        <p class="text-sm text-gray-600">Wedding Invitation</p>
+                        <div class="mt-3 flex justify-between items-center">
+                            <span class="text-orange-500 font-medium">₹45.00</span>
+                            <span class="text-xs bg-orange-100 text-orange-700 px-3 py-1 rounded">View Details</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="envelope-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 cursor-pointer" data-category="6x4" data-opening="side">
+                    <div class="h-48 bg-orange-100 relative overflow-hidden envelope-image">
+                        <img src="Y_301 copy.jpg" alt="Traditional Floral Envelope" class="absolute inset-0 h-full w-full object-cover" />
+                        <div class="absolute bottom-2 right-2 bg-white px-2 py-1 rounded text-xs font-medium">6x4</div>
+                        <div class="absolute top-2 left-2 bg-blue-500 text-white px-2 py-1 rounded-full text-xs font-medium">Side-Open</div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Classic Floral</h3>
+                        <p class="text-sm text-gray-600">Wedding Invitation</p>
+                        <div class="mt-3 flex justify-between items-center">
+                            <span class="text-orange-500 font-medium">₹45.00</span>
+                            <span class="text-xs bg-orange-100 text-orange-700 px-3 py-1 rounded">View Details</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="envelope-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 cursor-pointer" data-category="6x4" data-opening="side">
+                    <div class="h-48 bg-orange-100 relative overflow-hidden envelope-image">
+                        <img src="Y_303 copy.jpg" alt="Traditional Floral Envelope" class="absolute inset-0 h-full w-full object-cover" />
+                        <div class="absolute bottom-2 right-2 bg-white px-2 py-1 rounded text-xs font-medium">6x4</div>
+                        <div class="absolute top-2 left-2 bg-blue-500 text-white px-2 py-1 rounded-full text-xs font-medium">Side-Open</div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Classic Floral</h3>
+                        <p class="text-sm text-gray-600">Wedding Invitation</p>
+                        <div class="mt-3 flex justify-between items-center">
+                            <span class="text-orange-500 font-medium">₹45.00</span>
+                            <span class="text-xs bg-orange-100 text-orange-700 px-3 py-1 rounded">View Details</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="envelope-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 cursor-pointer" data-category="6x4" data-opening="side">
+                    <div class="h-48 bg-orange-100 relative overflow-hidden envelope-image">
+                        <img src="Y_304 copy.jpg" alt="Traditional Floral Envelope" class="absolute inset-0 h-full w-full object-cover" />
+                        <div class="absolute bottom-2 right-2 bg-white px-2 py-1 rounded text-xs font-medium">6x4</div>
+                        <div class="absolute top-2 left-2 bg-blue-500 text-white px-2 py-1 rounded-full text-xs font-medium">Side-Open</div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Classic Floral</h3>
+                        <p class="text-sm text-gray-600">Wedding Invitation</p>
+                        <div class="mt-3 flex justify-between items-center">
+                            <span class="text-orange-500 font-medium">₹45.00</span>
+                            <span class="text-xs bg-orange-100 text-orange-700 px-3 py-1 rounded">View Details</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="envelope-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 cursor-pointer" data-category="6x4" data-opening="side">
+                    <div class="h-48 bg-orange-100 relative overflow-hidden envelope-image">
+                        <img src="Y_305 copy.jpg" alt="Traditional Floral Envelope" class="absolute inset-0 h-full w-full object-cover" />
+                        <div class="absolute bottom-2 right-2 bg-white px-2 py-1 rounded text-xs font-medium">6x4</div>
+                        <div class="absolute top-2 left-2 bg-blue-500 text-white px-2 py-1 rounded-full text-xs font-medium">Side-Open</div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Classic Floral</h3>
+                        <p class="text-sm text-gray-600">Wedding Invitation</p>
+                        <div class="mt-3 flex justify-between items-center">
+                            <span class="text-orange-500 font-medium">₹45.00</span>
+                            <span class="text-xs bg-orange-100 text-orange-700 px-3 py-1 rounded">View Details</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="envelope-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 cursor-pointer" data-category="6x4" data-opening="side">
+                    <div class="h-48 bg-orange-100 relative overflow-hidden envelope-image">
+                        <img src="Y-2C.jpg" alt="Traditional Floral Envelope" class="absolute inset-0 h-full w-full object-cover" />
+                        <div class="absolute bottom-2 right-2 bg-white px-2 py-1 rounded text-xs font-medium">6x4</div>
+                        <div class="absolute top-2 left-2 bg-blue-500 text-white px-2 py-1 rounded-full text-xs font-medium">Side-Open</div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Classic Floral</h3>
+                        <p class="text-sm text-gray-600">Wedding Invitation</p>
+                        <div class="mt-3 flex justify-between items-center">
+                            <span class="text-orange-500 font-medium">₹45.00</span>
+                            <span class="text-xs bg-orange-100 text-orange-700 px-3 py-1 rounded">View Details</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="envelope-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 cursor-pointer" data-category="6x4" data-opening="side">
+                    <div class="h-48 bg-orange-100 relative overflow-hidden envelope-image">
+                        <img src="Y-2D.jpg" alt="Traditional Floral Envelope" class="absolute inset-0 h-full w-full object-cover" />
+                        <div class="absolute bottom-2 right-2 bg-white px-2 py-1 rounded text-xs font-medium">6x4</div>
+                        <div class="absolute top-2 left-2 bg-blue-500 text-white px-2 py-1 rounded-full text-xs font-medium">Side-Open</div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Classic Floral</h3>
+                        <p class="text-sm text-gray-600">Wedding Invitation</p>
+                        <div class="mt-3 flex justify-between items-center">
+                            <span class="text-orange-500 font-medium">₹45.00</span>
+                            <span class="text-xs bg-orange-100 text-orange-700 px-3 py-1 rounded">View Details</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="envelope-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 cursor-pointer" data-category="6x4" data-opening="side">
+                    <div class="h-48 bg-orange-100 relative overflow-hidden envelope-image">
+                        <img src="Y-98.jpg" alt="Traditional Floral Envelope" class="absolute inset-0 h-full w-full object-cover" />
+                        <div class="absolute bottom-2 right-2 bg-white px-2 py-1 rounded text-xs font-medium">6x4</div>
+                        <div class="absolute top-2 left-2 bg-blue-500 text-white px-2 py-1 rounded-full text-xs font-medium">Side-Open</div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Classic Floral</h3>
+                        <p class="text-sm text-gray-600">Wedding Invitation</p>
+                        <div class="mt-3 flex justify-between items-center">
+                            <span class="text-orange-500 font-medium">₹45.00</span>
+                            <span class="text-xs bg-orange-100 text-orange-700 px-3 py-1 rounded">View Details</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="envelope-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 cursor-pointer" data-category="6x4" data-opening="side">
+                    <div class="h-48 bg-orange-100 relative overflow-hidden envelope-image">
+                        <img src="Y-181 copy.jpg" alt="Traditional Floral Envelope" class="absolute inset-0 h-full w-full object-cover" />
+                        <div class="absolute bottom-2 right-2 bg-white px-2 py-1 rounded text-xs font-medium">6x4</div>
+                        <div class="absolute top-2 left-2 bg-blue-500 text-white px-2 py-1 rounded-full text-xs font-medium">Side-Open</div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Classic Floral</h3>
+                        <p class="text-sm text-gray-600">Wedding Invitation</p>
+                        <div class="mt-3 flex justify-between items-center">
+                            <span class="text-orange-500 font-medium">₹45.00</span>
+                            <span class="text-xs bg-orange-100 text-orange-700 px-3 py-1 rounded">View Details</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="envelope-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 cursor-pointer" data-category="6x4" data-opening="side">
+                    <div class="h-48 bg-orange-100 relative overflow-hidden envelope-image">
+                        <img src="Y-200.jpg" alt="Traditional Floral Envelope" class="absolute inset-0 h-full w-full object-cover" />
+                        <div class="absolute bottom-2 right-2 bg-white px-2 py-1 rounded text-xs font-medium">6x4</div>
+                        <div class="absolute top-2 left-2 bg-blue-500 text-white px-2 py-1 rounded-full text-xs font-medium">Side-Open</div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Classic Floral</h3>
+                        <p class="text-sm text-gray-600">Wedding Invitation</p>
+                        <div class="mt-3 flex justify-between items-center">
+                            <span class="text-orange-500 font-medium">₹45.00</span>
+                            <span class="text-xs bg-orange-100 text-orange-700 px-3 py-1 rounded">View Details</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="envelope-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 cursor-pointer" data-category="6x4" data-opening="side">
+                    <div class="h-48 bg-orange-100 relative overflow-hidden envelope-image">
+                        <img src="Y-200B copy.jpg" alt="Traditional Floral Envelope" class="absolute inset-0 h-full w-full object-cover" />
+                        <div class="absolute bottom-2 right-2 bg-white px-2 py-1 rounded text-xs font-medium">6x4</div>
+                        <div class="absolute top-2 left-2 bg-blue-500 text-white px-2 py-1 rounded-full text-xs font-medium">Side-Open</div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Classic Floral</h3>
+                        <p class="text-sm text-gray-600">Wedding Invitation</p>
+                        <div class="mt-3 flex justify-between items-center">
+                            <span class="text-orange-500 font-medium">₹45.00</span>
+                            <span class="text-xs bg-orange-100 text-orange-700 px-3 py-1 rounded">View Details</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="envelope-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 cursor-pointer" data-category="6x4" data-opening="side">
+                    <div class="h-48 bg-orange-100 relative overflow-hidden envelope-image">
+                        <img src="Y-325 copy.jpg" alt="Traditional Floral Envelope" class="absolute inset-0 h-full w-full object-cover" />
+                        <div class="absolute bottom-2 right-2 bg-white px-2 py-1 rounded text-xs font-medium">6x4</div>
+                        <div class="absolute top-2 left-2 bg-blue-500 text-white px-2 py-1 rounded-full text-xs font-medium">Side-Open</div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Classic Floral</h3>
+                        <p class="text-sm text-gray-600">Wedding Invitation</p>
+                        <div class="mt-3 flex justify-between items-center">
+                            <span class="text-orange-500 font-medium">₹45.00</span>
+                            <span class="text-xs bg-orange-100 text-orange-700 px-3 py-1 rounded">View Details</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="envelope-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 cursor-pointer" data-category="6x4" data-opening="side">
+                    <div class="h-48 bg-orange-100 relative overflow-hidden envelope-image">
+                        <img src="Y-326 copy.jpg" alt="Traditional Floral Envelope" class="absolute inset-0 h-full w-full object-cover" />
+                        <div class="absolute bottom-2 right-2 bg-white px-2 py-1 rounded text-xs font-medium">6x4</div>
+                        <div class="absolute top-2 left-2 bg-blue-500 text-white px-2 py-1 rounded-full text-xs font-medium">Side-Open</div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Classic Floral</h3>
+                        <p class="text-sm text-gray-600">Wedding Invitation</p>
+                        <div class="mt-3 flex justify-between items-center">
+                            <span class="text-orange-500 font-medium">₹45.00</span>
+                            <span class="text-xs bg-orange-100 text-orange-700 px-3 py-1 rounded">View Details</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="envelope-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 cursor-pointer" data-category="6x4" data-opening="side">
+                    <div class="h-48 bg-orange-100 relative overflow-hidden envelope-image">
+                        <img src="Y-327 copy.jpg" alt="Traditional Floral Envelope" class="absolute inset-0 h-full w-full object-cover" />
+                        <div class="absolute bottom-2 right-2 bg-white px-2 py-1 rounded text-xs font-medium">6x4</div>
+                        <div class="absolute top-2 left-2 bg-blue-500 text-white px-2 py-1 rounded-full text-xs font-medium">Side-Open</div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Classic Floral</h3>
+                        <p class="text-sm text-gray-600">Wedding Invitation</p>
+                        <div class="mt-3 flex justify-between items-center">
+                            <span class="text-orange-500 font-medium">₹45.00</span>
+                            <span class="text-xs bg-orange-100 text-orange-700 px-3 py-1 rounded">View Details</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="envelope-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 cursor-pointer" data-category="6x4" data-opening="side">
+                    <div class="h-48 bg-orange-100 relative overflow-hidden envelope-image">
+                        <img src="Y-328 copy.jpg" alt="Traditional Floral Envelope" class="absolute inset-0 h-full w-full object-cover" />
+                        <div class="absolute bottom-2 right-2 bg-white px-2 py-1 rounded text-xs font-medium">6x4</div>
+                        <div class="absolute top-2 left-2 bg-blue-500 text-white px-2 py-1 rounded-full text-xs font-medium">Side-Open</div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Classic Floral</h3>
+                        <p class="text-sm text-gray-600">Wedding Invitation</p>
+                        <div class="mt-3 flex justify-between items-center">
+                            <span class="text-orange-500 font-medium">₹45.00</span>
+                            <span class="text-xs bg-orange-100 text-orange-700 px-3 py-1 rounded">View Details</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="envelope-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 cursor-pointer" data-category="6x4" data-opening="side">
+                    <div class="h-48 bg-orange-100 relative overflow-hidden envelope-image">
+                        <img src="Y-329 copy.jpg" alt="Traditional Floral Envelope" class="absolute inset-0 h-full w-full object-cover" />
+                        <div class="absolute bottom-2 right-2 bg-white px-2 py-1 rounded text-xs font-medium">6x4</div>
+                        <div class="absolute top-2 left-2 bg-blue-500 text-white px-2 py-1 rounded-full text-xs font-medium">Side-Open</div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Classic Floral</h3>
+                        <p class="text-sm text-gray-600">Wedding Invitation</p>
+                        <div class="mt-3 flex justify-between items-center">
+                            <span class="text-orange-500 font-medium">₹45.00</span>
+                            <span class="text-xs bg-orange-100 text-orange-700 px-3 py-1 rounded">View Details</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="envelope-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 cursor-pointer" data-category="6x4" data-opening="side">
+                    <div class="h-48 bg-orange-100 relative overflow-hidden envelope-image">
+                        <img src="Y-331 copy.jpg" alt="Traditional Floral Envelope" class="absolute inset-0 h-full w-full object-cover" />
+                        <div class="absolute bottom-2 right-2 bg-white px-2 py-1 rounded text-xs font-medium">6x4</div>
+                        <div class="absolute top-2 left-2 bg-blue-500 text-white px-2 py-1 rounded-full text-xs font-medium">Side-Open</div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Classic Floral</h3>
+                        <p class="text-sm text-gray-600">Wedding Invitation</p>
+                        <div class="mt-3 flex justify-between items-center">
+                            <span class="text-orange-500 font-medium">₹45.00</span>
+                            <span class="text-xs bg-orange-100 text-orange-700 px-3 py-1 rounded">View Details</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="envelope-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 cursor-pointer" data-category="6x4" data-opening="side">
+                    <div class="h-48 bg-orange-100 relative overflow-hidden envelope-image">
+                        <img src="Y-332 copy.jpg" alt="Traditional Floral Envelope" class="absolute inset-0 h-full w-full object-cover" />
+                        <div class="absolute bottom-2 right-2 bg-white px-2 py-1 rounded text-xs font-medium">6x4</div>
+                        <div class="absolute top-2 left-2 bg-blue-500 text-white px-2 py-1 rounded-full text-xs font-medium">Side-Open</div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Classic Floral</h3>
+                        <p class="text-sm text-gray-600">Wedding Invitation</p>
+                        <div class="mt-3 flex justify-between items-center">
+                            <span class="text-orange-500 font-medium">₹45.00</span>
+                            <span class="text-xs bg-orange-100 text-orange-700 px-3 py-1 rounded">View Details</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="envelope-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 cursor-pointer" data-category="6x4" data-opening="side">
+                    <div class="h-48 bg-orange-100 relative overflow-hidden envelope-image">
+                        <img src="6x4 Y_170 copy.jpg" alt="Traditional Floral Envelope" class="absolute inset-0 h-full w-full object-cover" />
+                        <div class="absolute bottom-2 right-2 bg-white px-2 py-1 rounded text-xs font-medium">6x4</div>
+                        <div class="absolute top-2 left-2 bg-blue-500 text-white px-2 py-1 rounded-full text-xs font-medium">Side-Open</div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Classic Floral</h3>
+                        <p class="text-sm text-gray-600">Wedding Invitation</p>
+                        <div class="mt-3 flex justify-between items-center">
+                            <span class="text-orange-500 font-medium">₹45.00</span>
+                            <span class="text-xs bg-orange-100 text-orange-700 px-3 py-1 rounded">View Details</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="envelope-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 cursor-pointer" data-category="6x4" data-opening="side">
+                    <div class="h-48 bg-orange-100 relative overflow-hidden envelope-image">
+                        <img src="6x4 Y_172.jpg" alt="Traditional Floral Envelope" class="absolute inset-0 h-full w-full object-cover" />
+                        <div class="absolute bottom-2 right-2 bg-white px-2 py-1 rounded text-xs font-medium">6x4</div>
+                        <div class="absolute top-2 left-2 bg-blue-500 text-white px-2 py-1 rounded-full text-xs font-medium">Side-Open</div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Classic Floral</h3>
+                        <p class="text-sm text-gray-600">Wedding Invitation</p>
+                        <div class="mt-3 flex justify-between items-center">
+                            <span class="text-orange-500 font-medium">₹45.00</span>
+                            <span class="text-xs bg-orange-100 text-orange-700 px-3 py-1 rounded">View Details</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="envelope-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 cursor-pointer" data-category="6x4" data-opening="side">
+                    <div class="h-48 bg-orange-100 relative overflow-hidden envelope-image">
+                        <img src="Maxi _ 171.jpg" alt="Traditional Floral Envelope" class="absolute inset-0 h-full w-full object-cover" />
+                        <div class="absolute bottom-2 right-2 bg-white px-2 py-1 rounded text-xs font-medium">6x4</div>
+                        <div class="absolute top-2 left-2 bg-blue-500 text-white px-2 py-1 rounded-full text-xs font-medium">Side-Open</div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Classic Floral</h3>
+                        <p class="text-sm text-gray-600">Wedding Invitation</p>
+                        <div class="mt-3 flex justify-between items-center">
+                            <span class="text-orange-500 font-medium">₹45.00</span>
+                            <span class="text-xs bg-orange-100 text-orange-700 px-3 py-1 rounded">View Details</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="envelope-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 cursor-pointer" data-category="6x4" data-opening="side">
+                    <div class="h-48 bg-orange-100 relative overflow-hidden envelope-image">
+                        <img src="Y_174.jpg" alt="Traditional Floral Envelope" class="absolute inset-0 h-full w-full object-cover" />
+                        <div class="absolute bottom-2 right-2 bg-white px-2 py-1 rounded text-xs font-medium">6x4</div>
+                        <div class="absolute top-2 left-2 bg-blue-500 text-white px-2 py-1 rounded-full text-xs font-medium">Side-Open</div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Classic Floral</h3>
+                        <p class="text-sm text-gray-600">Wedding Invitation</p>
+                        <div class="mt-3 flex justify-between items-center">
+                            <span class="text-orange-500 font-medium">₹45.00</span>
+                            <span class="text-xs bg-orange-100 text-orange-700 px-3 py-1 rounded">View Details</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="envelope-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 cursor-pointer" data-category="6x4" data-opening="side">
+                    <div class="h-48 bg-orange-100 relative overflow-hidden envelope-image">
+                        <img src="Y_179 copy.jpg" alt="Traditional Floral Envelope" class="absolute inset-0 h-full w-full object-cover" />
+                        <div class="absolute bottom-2 right-2 bg-white px-2 py-1 rounded text-xs font-medium">6x4</div>
+                        <div class="absolute top-2 left-2 bg-blue-500 text-white px-2 py-1 rounded-full text-xs font-medium">Side-Open</div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Classic Floral</h3>
+                        <p class="text-sm text-gray-600">Wedding Invitation</p>
+                        <div class="mt-3 flex justify-between items-center">
+                            <span class="text-orange-500 font-medium">₹45.00</span>
+                            <span class="text-xs bg-orange-100 text-orange-700 px-3 py-1 rounded">View Details</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="envelope-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 cursor-pointer" data-category="6x4" data-opening="side">
+                    <div class="h-48 bg-orange-100 relative overflow-hidden envelope-image">
+                        <img src="Y-177.jpg" alt="Traditional Floral Envelope" class="absolute inset-0 h-full w-full object-cover" />
+                        <div class="absolute bottom-2 right-2 bg-white px-2 py-1 rounded text-xs font-medium">6x4</div>
+                        <div class="absolute top-2 left-2 bg-blue-500 text-white px-2 py-1 rounded-full text-xs font-medium">Side-Open</div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Classic Floral</h3>
+                        <p class="text-sm text-gray-600">Wedding Invitation</p>
+                        <div class="mt-3 flex justify-between items-center">
+                            <span class="text-orange-500 font-medium">₹45.00</span>
+                            <span class="text-xs bg-orange-100 text-orange-700 px-3 py-1 rounded">View Details</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="envelope-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 cursor-pointer" data-category="6x4" data-opening="top">
+                    <div class="h-48 bg-green-50 relative overflow-hidden envelope-image">
+                        <img src="6x4 top2.jpg" alt="Traditional Floral Envelope" class="absolute inset-0 h-full w-full object-cover" />
+
+                        <div class="absolute bottom-2 right-2 bg-white px-2 py-1 rounded text-xs font-medium">6x4</div>
+                        <div class="absolute top-2 left-2 bg-orange-500 text-white px-2 py-1 rounded-full text-xs font-medium">Top-Open</div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Nature Inspired</h3>
+                        <p class="text-sm text-gray-600">Wedding Invitation</p>
+                        <div class="mt-3 flex justify-between items-center">
+                            <span class="text-orange-500 font-medium">₹50.00</span>
+                            <span class="text-xs bg-orange-100 text-orange-700 px-3 py-1 rounded">View Details</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="envelope-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 cursor-pointer" data-category="6x4" data-opening="top">
+                    <div class="h-48 bg-green-50 relative overflow-hidden envelope-image">
+                        <img src="6x4 top6 birthday.jpg" alt="Traditional Floral Envelope" class="absolute inset-0 h-full w-full object-cover" />
+
+                        <div class="absolute bottom-2 right-2 bg-white px-2 py-1 rounded text-xs font-medium">6x4</div>
+                        <div class="absolute top-2 left-2 bg-orange-500 text-white px-2 py-1 rounded-full text-xs font-medium">Top-Open</div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Nature Inspired</h3>
+                        <p class="text-sm text-gray-600">Wedding Invitation</p>
+                        <div class="mt-3 flex justify-between items-center">
+                            <span class="text-orange-500 font-medium">₹50.00</span>
+                            <span class="text-xs bg-orange-100 text-orange-700 px-3 py-1 rounded">View Details</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="envelope-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 cursor-pointer" data-category="6x4" data-opening="top">
+                    <div class="h-48 bg-green-50 relative overflow-hidden envelope-image">
+                        <img src="6x4 top7.jpg" alt="Traditional Floral Envelope" class="absolute inset-0 h-full w-full object-cover" />
+
+                        <div class="absolute bottom-2 right-2 bg-white px-2 py-1 rounded text-xs font-medium">6x4</div>
+                        <div class="absolute top-2 left-2 bg-orange-500 text-white px-2 py-1 rounded-full text-xs font-medium">Top-Open</div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Nature Inspired</h3>
+                        <p class="text-sm text-gray-600">Wedding Invitation</p>
+                        <div class="mt-3 flex justify-between items-center">
+                            <span class="text-orange-500 font-medium">₹50.00</span>
+                            <span class="text-xs bg-orange-100 text-orange-700 px-3 py-1 rounded">View Details</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="envelope-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 cursor-pointer" data-category="6x4" data-opening="top">
+                    <div class="h-48 bg-green-50 relative overflow-hidden envelope-image">
+                        <img src="6x4 top9.jpg" alt="Traditional Floral Envelope" class="absolute inset-0 h-full w-full object-cover" />
+
+                        <div class="absolute bottom-2 right-2 bg-white px-2 py-1 rounded text-xs font-medium">6x4</div>
+                        <div class="absolute top-2 left-2 bg-orange-500 text-white px-2 py-1 rounded-full text-xs font-medium">Top-Open</div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Nature Inspired</h3>
+                        <p class="text-sm text-gray-600">Wedding Invitation</p>
+                        <div class="mt-3 flex justify-between items-center">
+                            <span class="text-orange-500 font-medium">₹50.00</span>
+                            <span class="text-xs bg-orange-100 text-orange-700 px-3 py-1 rounded">View Details</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="envelope-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 cursor-pointer" data-category="6x4" data-opening="top">
+                    <div class="h-48 bg-green-50 relative overflow-hidden envelope-image">
+                        <img src="6x4 top10.jpg" alt="Traditional Floral Envelope" class="absolute inset-0 h-full w-full object-cover" />
+
+                        <div class="absolute bottom-2 right-2 bg-white px-2 py-1 rounded text-xs font-medium">6x4</div>
+                        <div class="absolute top-2 left-2 bg-orange-500 text-white px-2 py-1 rounded-full text-xs font-medium">Top-Open</div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Nature Inspired</h3>
+                        <p class="text-sm text-gray-600">Wedding Invitation</p>
+                        <div class="mt-3 flex justify-between items-center">
+                            <span class="text-orange-500 font-medium">₹50.00</span>
+                            <span class="text-xs bg-orange-100 text-orange-700 px-3 py-1 rounded">View Details</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 7x5 Envelopes -->
+
+                <div class="envelope-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 cursor-pointer" data-category="7x5" data-opening="top">
+                    <div class="h-48 bg-pink-50 relative overflow-hidden envelope-image">
+                        <img src="7x5 M-25.jpg" alt="Traditional Floral Envelope" class="absolute inset-0 h-full w-full object-cover" />
+                        <div class="absolute bottom-2 right-2 bg-white px-2 py-1 rounded text-xs font-medium">7x5</div>
+                        <div class="absolute top-2 left-2 bg-orange-500 text-white px-2 py-1 rounded-full text-xs font-medium">top-Open</div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Pink Celebration</h3>
+                        <p class="text-sm text-gray-600">Birthday Invitation</p>
+                        <div class="mt-3 flex justify-between items-center">
+                            <span class="text-orange-500 font-medium">₹45.00</span>
+                            <span class="text-xs bg-orange-100 text-orange-700 px-3 py-1 rounded">View Details</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="envelope-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 cursor-pointer" data-category="7x5" data-opening="side">
+                    <div class="h-48 bg-pink-50 relative overflow-hidden envelope-image">
+                        <img src="M 5x7  _15 copy.jpg" alt="Traditional Floral Envelope" class="absolute inset-0 h-full w-full object-cover" />
+                        <div class="absolute bottom-2 right-2 bg-white px-2 py-1 rounded text-xs font-medium">7x5</div>
+                        <div class="absolute top-2 left-2 bg-blue-500 text-white px-2 py-1 rounded-full text-xs font-medium">Side-Open</div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Pink Celebration</h3>
+                        <p class="text-sm text-gray-600">Birthday Invitation</p>
+                        <div class="mt-3 flex justify-between items-center">
+                            <span class="text-orange-500 font-medium">₹45.00</span>
+                            <span class="text-xs bg-orange-100 text-orange-700 px-3 py-1 rounded">View Details</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="envelope-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 cursor-pointer" data-category="7x5" data-opening="side">
+                    <div class="h-48 bg-pink-50 relative overflow-hidden envelope-image">
+                        <img src="M 5x7  _17.jpg" alt="Traditional Floral Envelope" class="absolute inset-0 h-full w-full object-cover" />
+                        <div class="absolute bottom-2 right-2 bg-white px-2 py-1 rounded text-xs font-medium">7x5</div>
+                        <div class="absolute top-2 left-2 bg-blue-500 text-white px-2 py-1 rounded-full text-xs font-medium">Side-Open</div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Pink Celebration</h3>
+                        <p class="text-sm text-gray-600">Birthday Invitation</p>
+                        <div class="mt-3 flex justify-between items-center">
+                            <span class="text-orange-500 font-medium">₹45.00</span>
+                            <span class="text-xs bg-orange-100 text-orange-700 px-3 py-1 rounded">View Details</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="envelope-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 cursor-pointer" data-category="7x5" data-opening="side">
+                    <div class="h-48 bg-pink-50 relative overflow-hidden envelope-image">
+                        <img src="M 5x7  _21 birthday copy.jpg" alt="Traditional Floral Envelope" class="absolute inset-0 h-full w-full object-cover" />
+                        <div class="absolute bottom-2 right-2 bg-white px-2 py-1 rounded text-xs font-medium">7x5</div>
+                        <div class="absolute top-2 left-2 bg-blue-500 text-white px-2 py-1 rounded-full text-xs font-medium">Side-Open</div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Pink Celebration</h3>
+                        <p class="text-sm text-gray-600">Birthday Invitation</p>
+                        <div class="mt-3 flex justify-between items-center">
+                            <span class="text-orange-500 font-medium">₹45.00</span>
+                            <span class="text-xs bg-orange-100 text-orange-700 px-3 py-1 rounded">View Details</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="envelope-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 cursor-pointer" data-category="7x5" data-opening="side">
+                    <div class="h-48 bg-pink-50 relative overflow-hidden envelope-image">
+                        <img src="M 5x7 - 32.jpg" alt="Traditional Floral Envelope" class="absolute inset-0 h-full w-full object-cover" />
+                        <div class="absolute bottom-2 right-2 bg-white px-2 py-1 rounded text-xs font-medium">7x5</div>
+                        <div class="absolute top-2 left-2 bg-blue-500 text-white px-2 py-1 rounded-full text-xs font-medium">Side-Open</div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Pink Celebration</h3>
+                        <p class="text-sm text-gray-600">Birthday Invitation</p>
+                        <div class="mt-3 flex justify-between items-center">
+                            <span class="text-orange-500 font-medium">₹45.00</span>
+                            <span class="text-xs bg-orange-100 text-orange-700 px-3 py-1 rounded">View Details</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="envelope-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 cursor-pointer" data-category="7x5" data-opening="side">
+                    <div class="h-48 bg-pink-50 relative overflow-hidden envelope-image">
+                        <img src="M 5x7 - 33.jpg" alt="Traditional Floral Envelope" class="absolute inset-0 h-full w-full object-cover" />
+                        <div class="absolute bottom-2 right-2 bg-white px-2 py-1 rounded text-xs font-medium">7x5</div>
+                        <div class="absolute top-2 left-2 bg-blue-500 text-white px-2 py-1 rounded-full text-xs font-medium">Side-Open</div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Pink Celebration</h3>
+                        <p class="text-sm text-gray-600">Birthday Invitation</p>
+                        <div class="mt-3 flex justify-between items-center">
+                            <span class="text-orange-500 font-medium">₹45.00</span>
+                            <span class="text-xs bg-orange-100 text-orange-700 px-3 py-1 rounded">View Details</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="envelope-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 cursor-pointer" data-category="7x5" data-opening="side">
+                    <div class="h-48 bg-pink-50 relative overflow-hidden envelope-image">
+                        <img src="M -14.jpg" alt="Traditional Floral Envelope" class="absolute inset-0 h-full w-full object-cover" />
+                        <div class="absolute bottom-2 right-2 bg-white px-2 py-1 rounded text-xs font-medium">7x5</div>
+                        <div class="absolute top-2 left-2 bg-blue-500 text-white px-2 py-1 rounded-full text-xs font-medium">Side-Open</div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Pink Celebration</h3>
+                        <p class="text-sm text-gray-600">Birthday Invitation</p>
+                        <div class="mt-3 flex justify-between items-center">
+                            <span class="text-orange-500 font-medium">₹45.00</span>
+                            <span class="text-xs bg-orange-100 text-orange-700 px-3 py-1 rounded">View Details</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="envelope-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 cursor-pointer" data-category="7x5" data-opening="side">
+                    <div class="h-48 bg-pink-50 relative overflow-hidden envelope-image">
+                        <img src="M-12.jpg" alt="Traditional Floral Envelope" class="absolute inset-0 h-full w-full object-cover" />
+                        <div class="absolute bottom-2 right-2 bg-white px-2 py-1 rounded text-xs font-medium">7x5</div>
+                        <div class="absolute top-2 left-2 bg-blue-500 text-white px-2 py-1 rounded-full text-xs font-medium">Side-Open</div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Pink Celebration</h3>
+                        <p class="text-sm text-gray-600">Birthday Invitation</p>
+                        <div class="mt-3 flex justify-between items-center">
+                            <span class="text-orange-500 font-medium">₹45.00</span>
+                            <span class="text-xs bg-orange-100 text-orange-700 px-3 py-1 rounded">View Details</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="envelope-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 cursor-pointer" data-category="7x5" data-opening="top">
+                    <div class="h-48 bg-pink-50 relative overflow-hidden envelope-image">
+                        <img src="M-16.jpg" alt="Traditional Floral Envelope" class="absolute inset-0 h-full w-full object-cover" />
+                        <div class="absolute bottom-2 right-2 bg-white px-2 py-1 rounded text-xs font-medium">7x5</div>
+                        <div class="absolute top-2 left-2 bg-orange-500 text-white px-2 py-1 rounded-full text-xs font-medium">top-Open</div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Pink Celebration</h3>
+                        <p class="text-sm text-gray-600">Birthday Invitation</p>
+                        <div class="mt-3 flex justify-between items-center">
+                            <span class="text-orange-500 font-medium">₹45.00</span>
+                            <span class="text-xs bg-orange-100 text-orange-700 px-3 py-1 rounded">View Details</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="envelope-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 cursor-pointer" data-category="7x5" data-opening="top">
+                    <div class="h-48 bg-pink-50 relative overflow-hidden envelope-image">
+                        <img src="Model _13 copy.jpg" alt="Traditional Floral Envelope" class="absolute inset-0 h-full w-full object-cover" />
+                        <div class="absolute bottom-2 right-2 bg-white px-2 py-1 rounded text-xs font-medium">7x5</div>
+                        <div class="absolute top-2 left-2 bg-orange-500 text-white px-2 py-1 rounded-full text-xs font-medium">top-Open</div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Pink Celebration</h3>
+                        <p class="text-sm text-gray-600">Birthday Invitation</p>
+                        <div class="mt-3 flex justify-between items-center">
+                            <span class="text-orange-500 font-medium">₹45.00</span>
+                            <span class="text-xs bg-orange-100 text-orange-700 px-3 py-1 rounded">View Details</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="envelope-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 cursor-pointer" data-category="7x5" data-opening="side">
+                    <div class="h-48 bg-pink-50 relative overflow-hidden envelope-image">
+                        <img src="Model _happy copy.jpg" alt="Traditional Floral Envelope" class="absolute inset-0 h-full w-full object-cover" />
+                        <div class="absolute bottom-2 right-2 bg-white px-2 py-1 rounded text-xs font-medium">7x5</div>
+                        <div class="absolute top-2 left-2 bg-blue-500 text-white px-2 py-1 rounded-full text-xs font-medium">Side-Open</div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Pink Celebration</h3>
+                        <p class="text-sm text-gray-600">Birthday Invitation</p>
+                        <div class="mt-3 flex justify-between items-center">
+                            <span class="text-orange-500 font-medium">₹45.00</span>
+                            <span class="text-xs bg-orange-100 text-orange-700 px-3 py-1 rounded">View Details</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 8x4 Envelopes -->
+                <div class="envelope-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 cursor-pointer" data-category="8x4" data-opening="side">
+                    <div class="h-48 bg-yellow-50 relative overflow-hidden envelope-image">
+                        <img src="P _10.jpg" alt="Traditional Floral Envelope" class="absolute inset-0 h-full w-full object-cover" />
+                        <div class="absolute bottom-2 right-2 bg-white px-2 py-1 rounded text-xs font-medium">8x4</div>
+                        <div class="absolute top-2 left-2 bg-blue-500 text-white px-2 py-1 rounded-full text-xs font-medium">Side-Open</div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Sunshine Yellow</h3>
+                        <p class="text-sm text-gray-600">Celebration Invitation</p>
+                        <div class="mt-3 flex justify-between items-center">
+                            <span class="text-orange-500 font-medium">₹50.00</span>
+                            <span class="text-xs bg-orange-100 text-orange-700 px-3 py-1 rounded">View Details</span>
+                        </div>
+                    </div>
+                </div>
+                    <div class="envelope-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 cursor-pointer" data-category="8x4" data-opening="side">
+                    <div class="h-48 bg-yellow-50 relative overflow-hidden envelope-image">
+                        <img src="P _15.jpg" alt="Traditional Floral Envelope" class="absolute inset-0 h-full w-full object-cover" />
+                        <div class="absolute bottom-2 right-2 bg-white px-2 py-1 rounded text-xs font-medium">8x4</div>
+                        <div class="absolute top-2 left-2 bg-blue-500 text-white px-2 py-1 rounded-full text-xs font-medium">Side-Open</div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Sunshine Yellow</h3>
+                        <p class="text-sm text-gray-600">Celebration Invitation</p>
+                        <div class="mt-3 flex justify-between items-center">
+                            <span class="text-orange-500 font-medium">₹50.00</span>
+                            <span class="text-xs bg-orange-100 text-orange-700 px-3 py-1 rounded">View Details</span>
+                        </div>
+                    </div>
+                </div>
+                     <div class="envelope-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 cursor-pointer" data-category="8x4" data-opening="side">
+                    <div class="h-48 bg-yellow-50 relative overflow-hidden envelope-image">
+                        <img src="P _18.jpg" alt="Traditional Floral Envelope" class="absolute inset-0 h-full w-full object-cover" />
+                        <div class="absolute bottom-2 right-2 bg-white px-2 py-1 rounded text-xs font-medium">8x4</div>
+                        <div class="absolute top-2 left-2 bg-blue-500 text-white px-2 py-1 rounded-full text-xs font-medium">Side-Open</div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Sunshine Yellow</h3>
+                        <p class="text-sm text-gray-600">Celebration Invitation</p>
+                        <div class="mt-3 flex justify-between items-center">
+                            <span class="text-orange-500 font-medium">₹50.00</span>
+                            <span class="text-xs bg-orange-100 text-orange-700 px-3 py-1 rounded">View Details</span>
+                        </div>
+                    </div>
+                </div>
+                    <div class="envelope-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 cursor-pointer" data-category="8x4" data-opening="side">
+                    <div class="h-48 bg-yellow-50 relative overflow-hidden envelope-image">
+                        <img src="P _22 copy.jpg" alt="Traditional Floral Envelope" class="absolute inset-0 h-full w-full object-cover" />
+                        <div class="absolute bottom-2 right-2 bg-white px-2 py-1 rounded text-xs font-medium">8x4</div>
+                        <div class="absolute top-2 left-2 bg-blue-500 text-white px-2 py-1 rounded-full text-xs font-medium">Side-Open</div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Sunshine Yellow</h3>
+                        <p class="text-sm text-gray-600">Celebration Invitation</p>
+                        <div class="mt-3 flex justify-between items-center">
+                            <span class="text-orange-500 font-medium">₹50.00</span>
+                            <span class="text-xs bg-orange-100 text-orange-700 px-3 py-1 rounded">View Details</span>
+                        </div>
+                    </div>
+                </div>
+                    <div class="envelope-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 cursor-pointer" data-category="8x4" data-opening="side">
+                    <div class="h-48 bg-yellow-50 relative overflow-hidden envelope-image">
+                        <img src="P _23 copy.jpg" alt="Traditional Floral Envelope" class="absolute inset-0 h-full w-full object-cover" />
+                        <div class="absolute bottom-2 right-2 bg-white px-2 py-1 rounded text-xs font-medium">8x4</div>
+                        <div class="absolute top-2 left-2 bg-blue-500 text-white px-2 py-1 rounded-full text-xs font-medium">Side-Open</div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Sunshine Yellow</h3>
+                        <p class="text-sm text-gray-600">Celebration Invitation</p>
+                        <div class="mt-3 flex justify-between items-center">
+                            <span class="text-orange-500 font-medium">₹50.00</span>
+                            <span class="text-xs bg-orange-100 text-orange-700 px-3 py-1 rounded">View Details</span>
+                        </div>
+                    </div>
+                </div>
+                    <div class="envelope-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 cursor-pointer" data-category="8x4" data-opening="side">
+                    <div class="h-48 bg-yellow-50 relative overflow-hidden envelope-image">
+                        <img src="P_ 17.jpg" alt="Traditional Floral Envelope" class="absolute inset-0 h-full w-full object-cover" />
+                        <div class="absolute bottom-2 right-2 bg-white px-2 py-1 rounded text-xs font-medium">8x4</div>
+                        <div class="absolute top-2 left-2 bg-blue-500 text-white px-2 py-1 rounded-full text-xs font-medium">Side-Open</div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Sunshine Yellow</h3>
+                        <p class="text-sm text-gray-600">Celebration Invitation</p>
+                        <div class="mt-3 flex justify-between items-center">
+                            <span class="text-orange-500 font-medium">₹50.00</span>
+                            <span class="text-xs bg-orange-100 text-orange-700 px-3 py-1 rounded">View Details</span>
+                        </div>
+                    </div>
+                </div>
+                    <div class="envelope-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 cursor-pointer" data-category="8x4" data-opening="side">
+                    <div class="h-48 bg-yellow-50 relative overflow-hidden envelope-image">
+                        <img src="P _26 birthday copy.jpg" alt="Traditional Floral Envelope" class="absolute inset-0 h-full w-full object-cover" />
+                        <div class="absolute bottom-2 right-2 bg-white px-2 py-1 rounded text-xs font-medium">8x4</div>
+                        <div class="absolute top-2 left-2 bg-blue-500 text-white px-2 py-1 rounded-full text-xs font-medium">Side-Open</div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Sunshine Yellow</h3>
+                        <p class="text-sm text-gray-600">Celebration Invitation</p>
+                        <div class="mt-3 flex justify-between items-center">
+                            <span class="text-orange-500 font-medium">₹50.00</span>
+                            <span class="text-xs bg-orange-100 text-orange-700 px-3 py-1 rounded">View Details</span>
+                        </div>
+                    </div>
+                </div>
+                    <div class="envelope-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 cursor-pointer" data-category="8x4" data-opening="side">
+                    <div class="h-48 bg-yellow-50 relative overflow-hidden envelope-image">
+                        <img src="P_ 24 copy.jpg" alt="Traditional Floral Envelope" class="absolute inset-0 h-full w-full object-cover" />
+                        <div class="absolute bottom-2 right-2 bg-white px-2 py-1 rounded text-xs font-medium">8x4</div>
+                        <div class="absolute top-2 left-2 bg-blue-500 text-white px-2 py-1 rounded-full text-xs font-medium">Side-Open</div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Sunshine Yellow</h3>
+                        <p class="text-sm text-gray-600">Celebration Invitation</p>
+                        <div class="mt-3 flex justify-between items-center">
+                            <span class="text-orange-500 font-medium">₹50.00</span>
+                            <span class="text-xs bg-orange-100 text-orange-700 px-3 py-1 rounded">View Details</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 9x6 Envelopes -->
+                <div class="envelope-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 cursor-pointer" data-category="9x6" data-opening="top">
+                    <div class="h-48 bg-red-50 relative overflow-hidden envelope-image">
+                        <img src="6x9 Cover 103 copy.jpg" alt="Crimson Elegance Envelope" class="absolute inset-0 h-full w-full object-cover" />
+                        <div class="absolute bottom-2 right-2 bg-white px-2 py-1 rounded text-xs font-medium">9x6</div>
+                        <div class="absolute top-2 left-2 bg-orange-500 text-white px-2 py-1 rounded-full text-xs font-medium">Top-Open</div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Crimson Elegance</h3>
+                        <p class="text-sm text-gray-600">Wedding Invitation</p>
+                        <div class="mt-3 flex justify-between items-center">
+                            <span class="text-orange-500 font-medium">₹60.00</span>
+                            <span class="text-xs bg-orange-100 text-orange-700 px-3 py-1 rounded">View Details</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="envelope-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 cursor-pointer" data-category="9x6" data-opening="top">
+                    <div class="h-48 bg-red-50 relative overflow-hidden envelope-image">
+                        <img src="6x9 Cover 104.jpg" alt="Crimson Elegance Envelope" class="absolute inset-0 h-full w-full object-cover" />
+                        <div class="absolute bottom-2 right-2 bg-white px-2 py-1 rounded text-xs font-medium">9x6</div>
+                        <div class="absolute top-2 left-2 bg-orange-500 text-white px-2 py-1 rounded-full text-xs font-medium">Top-Open</div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Crimson Elegance</h3>
+                        <p class="text-sm text-gray-600">Wedding Invitation</p>
+                        <div class="mt-3 flex justify-between items-center">
+                            <span class="text-orange-500 font-medium">₹60.00</span>
+                            <span class="text-xs bg-orange-100 text-orange-700 px-3 py-1 rounded">View Details</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="envelope-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 cursor-pointer" data-category="9x6" data-opening="top">
+                    <div class="h-48 bg-red-50 relative overflow-hidden envelope-image">
+                        <img src="6x9 Cover 105.jpg" alt="Crimson Elegance Envelope" class="absolute inset-0 h-full w-full object-cover" />
+                        <div class="absolute bottom-2 right-2 bg-white px-2 py-1 rounded text-xs font-medium">9x6</div>
+                        <div class="absolute top-2 left-2 bg-orange-500 text-white px-2 py-1 rounded-full text-xs font-medium">Top-Open</div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Crimson Elegance</h3>
+                        <p class="text-sm text-gray-600">Wedding Invitation</p>
+                        <div class="mt-3 flex justify-between items-center">
+                            <span class="text-orange-500 font-medium">₹60.00</span>
+                            <span class="text-xs bg-orange-100 text-orange-700 px-3 py-1 rounded">View Details</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="envelope-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 cursor-pointer" data-category="9x6" data-opening="top">
+                    <div class="h-48 bg-red-50 relative overflow-hidden envelope-image">
+                        <img src="6x9 R-73 copy.jpg" alt="Crimson Elegance Envelope" class="absolute inset-0 h-full w-full object-cover" />
+                        <div class="absolute bottom-2 right-2 bg-white px-2 py-1 rounded text-xs font-medium">9x6</div>
+                        <div class="absolute top-2 left-2 bg-orange-500 text-white px-2 py-1 rounded-full text-xs font-medium">Top-Open</div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Crimson Elegance</h3>
+                        <p class="text-sm text-gray-600">Wedding Invitation</p>
+                        <div class="mt-3 flex justify-between items-center">
+                            <span class="text-orange-500 font-medium">₹60.00</span>
+                            <span class="text-xs bg-orange-100 text-orange-700 px-3 py-1 rounded">View Details</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="envelope-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 cursor-pointer" data-category="9x6" data-opening="top">
+                    <div class="h-48 bg-red-50 relative overflow-hidden envelope-image">
+                        <img src="6x9 R-102.jpg" alt="Crimson Elegance Envelope" class="absolute inset-0 h-full w-full object-cover" />
+                        <div class="absolute bottom-2 right-2 bg-white px-2 py-1 rounded text-xs font-medium">9x6</div>
+                        <div class="absolute top-2 left-2 bg-orange-500 text-white px-2 py-1 rounded-full text-xs font-medium">Top-Open</div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Crimson Elegance</h3>
+                        <p class="text-sm text-gray-600">Wedding Invitation</p>
+                        <div class="mt-3 flex justify-between items-center">
+                            <span class="text-orange-500 font-medium">₹60.00</span>
+                            <span class="text-xs bg-orange-100 text-orange-700 px-3 py-1 rounded">View Details</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="envelope-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 cursor-pointer" data-category="9x6" data-opening="top">
+                    <div class="h-48 bg-red-50 relative overflow-hidden envelope-image">
+                        <img src="9 X 6 Cover gruha cover copy.jpg" alt="Crimson Elegance Envelope" class="absolute inset-0 h-full w-full object-cover" />
+                        <div class="absolute bottom-2 right-2 bg-white px-2 py-1 rounded text-xs font-medium">9x6</div>
+                        <div class="absolute top-2 left-2 bg-orange-500 text-white px-2 py-1 rounded-full text-xs font-medium">Top-Open</div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Crimson Elegance</h3>
+                        <p class="text-sm text-gray-600">Wedding Invitation</p>
+                        <div class="mt-3 flex justify-between items-center">
+                            <span class="text-orange-500 font-medium">₹60.00</span>
+                            <span class="text-xs bg-orange-100 text-orange-700 px-3 py-1 rounded">View Details</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="envelope-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 cursor-pointer" data-category="9x6" data-opening="top">
+                    <div class="h-48 bg-red-50 relative overflow-hidden envelope-image">
+                        <img src="9 X 6 Cover R6.jpg" alt="Crimson Elegance Envelope" class="absolute inset-0 h-full w-full object-cover" />
+                        <div class="absolute bottom-2 right-2 bg-white px-2 py-1 rounded text-xs font-medium">9x6</div>
+                        <div class="absolute top-2 left-2 bg-orange-500 text-white px-2 py-1 rounded-full text-xs font-medium">Top-Open</div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Crimson Elegance</h3>
+                        <p class="text-sm text-gray-600">Wedding Invitation</p>
+                        <div class="mt-3 flex justify-between items-center">
+                            <span class="text-orange-500 font-medium">₹60.00</span>
+                            <span class="text-xs bg-orange-100 text-orange-700 px-3 py-1 rounded">View Details</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="envelope-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 cursor-pointer" data-category="9x6" data-opening="top">
+                    <div class="h-48 bg-red-50 relative overflow-hidden envelope-image">
+                        <img src="9 X 6 R-71 copy.jpg" alt="Crimson Elegance Envelope" class="absolute inset-0 h-full w-full object-cover" />
+                        <div class="absolute bottom-2 right-2 bg-white px-2 py-1 rounded text-xs font-medium">9x6</div>
+                        <div class="absolute top-2 left-2 bg-orange-500 text-white px-2 py-1 rounded-full text-xs font-medium">Top-Open</div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Crimson Elegance</h3>
+                        <p class="text-sm text-gray-600">Wedding Invitation</p>
+                        <div class="mt-3 flex justify-between items-center">
+                            <span class="text-orange-500 font-medium">₹60.00</span>
+                            <span class="text-xs bg-orange-100 text-orange-700 px-3 py-1 rounded">View Details</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="envelope-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 cursor-pointer" data-category="9x6" data-opening="side">
+                    <div class="h-48 bg-red-50 relative overflow-hidden envelope-image">
+                        <img src="9 X 6 R-77.jpg" alt="Crimson Elegance Envelope" class="absolute inset-0 h-full w-full object-cover" />
+                        <div class="absolute bottom-2 right-2 bg-white px-2 py-1 rounded text-xs font-medium">9x6</div>
+                        <div class="absolute top-2 left-2 bg-blue-500 text-white px-2 py-1 rounded-full text-xs font-medium">side-Open</div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Crimson Elegance</h3>
+                        <p class="text-sm text-gray-600">Wedding Invitation</p>
+                        <div class="mt-3 flex justify-between items-center">
+                            <span class="text-orange-500 font-medium">₹60.00</span>
+                            <span class="text-xs bg-orange-100 text-orange-700 px-3 py-1 rounded">View Details</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="envelope-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 cursor-pointer" data-category="9x6" data-opening="top">
+                    <div class="h-48 bg-red-50 relative overflow-hidden envelope-image">
+                        <img src="9x6 - 5.jpg" alt="Crimson Elegance Envelope" class="absolute inset-0 h-full w-full object-cover" />
+                        <div class="absolute bottom-2 right-2 bg-white px-2 py-1 rounded text-xs font-medium">9x6</div>
+                        <div class="absolute top-2 left-2 bg-orange-500 text-white px-2 py-1 rounded-full text-xs font-medium">Top-Open</div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Crimson Elegance</h3>
+                        <p class="text-sm text-gray-600">Wedding Invitation</p>
+                        <div class="mt-3 flex justify-between items-center">
+                            <span class="text-orange-500 font-medium">₹60.00</span>
+                            <span class="text-xs bg-orange-100 text-orange-700 px-3 py-1 rounded">View Details</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="envelope-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 cursor-pointer" data-category="9x6" data-opening="side">
+                    <div class="h-48 bg-red-50 relative overflow-hidden envelope-image">
+                        <img src="9x6 Cover -56.jpg" alt="Crimson Elegance Envelope" class="absolute inset-0 h-full w-full object-cover" />
+                        <div class="absolute bottom-2 right-2 bg-white px-2 py-1 rounded text-xs font-medium">9x6</div>
+                        <div class="absolute top-2 left-2 bg-blue-500 text-white px-2 py-1 rounded-full text-xs font-medium">side-Open</div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Crimson Elegance</h3>
+                        <p class="text-sm text-gray-600">Wedding Invitation</p>
+                        <div class="mt-3 flex justify-between items-center">
+                            <span class="text-orange-500 font-medium">₹60.00</span>
+                            <span class="text-xs bg-orange-100 text-orange-700 px-3 py-1 rounded">View Details</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="envelope-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 cursor-pointer" data-category="9x6" data-opening="side">
+                    <div class="h-48 bg-red-50 relative overflow-hidden envelope-image">
+                        <img src="9x6 Cover120.jpg" alt="Crimson Elegance Envelope" class="absolute inset-0 h-full w-full object-cover" />
+                        <div class="absolute bottom-2 right-2 bg-white px-2 py-1 rounded text-xs font-medium">9x6</div>
+                        <div class="absolute top-2 left-2 bg-blue-500 text-white px-2 py-1 rounded-full text-xs font-medium">side-Open</div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Crimson Elegance</h3>
+                        <p class="text-sm text-gray-600">Wedding Invitation</p>
+                        <div class="mt-3 flex justify-between items-center">
+                            <span class="text-orange-500 font-medium">₹60.00</span>
+                            <span class="text-xs bg-orange-100 text-orange-700 px-3 py-1 rounded">View Details</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="envelope-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 cursor-pointer" data-category="9x6" data-opening="side">
+                    <div class="h-48 bg-red-50 relative overflow-hidden envelope-image">
+                        <img src="9x6 R-30A.jpg" alt="Crimson Elegance Envelope" class="absolute inset-0 h-full w-full object-cover" />
+                        <div class="absolute bottom-2 right-2 bg-white px-2 py-1 rounded text-xs font-medium">9x6</div>
+                        <div class="absolute top-2 left-2 bg-blue-500 text-white px-2 py-1 rounded-full text-xs font-medium">side-Open</div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Crimson Elegance</h3>
+                        <p class="text-sm text-gray-600">Wedding Invitation</p>
+                        <div class="mt-3 flex justify-between items-center">
+                            <span class="text-orange-500 font-medium">₹60.00</span>
+                            <span class="text-xs bg-orange-100 text-orange-700 px-3 py-1 rounded">View Details</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="envelope-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 cursor-pointer" data-category="9x6" data-opening="side">
+                    <div class="h-48 bg-red-50 relative overflow-hidden envelope-image">
+                        <img src="9x6 R-79.jpg" alt="Crimson Elegance Envelope" class="absolute inset-0 h-full w-full object-cover" />
+                        <div class="absolute bottom-2 right-2 bg-white px-2 py-1 rounded text-xs font-medium">9x6</div>
+                        <div class="absolute top-2 left-2 bg-blue-500 text-white px-2 py-1 rounded-full text-xs font-medium">side-Open</div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Crimson Elegance</h3>
+                        <p class="text-sm text-gray-600">Wedding Invitation</p>
+                        <div class="mt-3 flex justify-between items-center">
+                            <span class="text-orange-500 font-medium">₹60.00</span>
+                            <span class="text-xs bg-orange-100 text-orange-700 px-3 py-1 rounded">View Details</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="envelope-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 cursor-pointer" data-category="9x6" data-opening="side">
+                    <div class="h-48 bg-red-50 relative overflow-hidden envelope-image">
+                        <img src="9x6 R-80.jpg" alt="Crimson Elegance Envelope" class="absolute inset-0 h-full w-full object-cover" />
+                        <div class="absolute bottom-2 right-2 bg-white px-2 py-1 rounded text-xs font-medium">9x6</div>
+                        <div class="absolute top-2 left-2 bg-blue-500 text-white px-2 py-1 rounded-full text-xs font-medium">side-Open</div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Crimson Elegance</h3>
+                        <p class="text-sm text-gray-600">Wedding Invitation</p>
+                        <div class="mt-3 flex justify-between items-center">
+                            <span class="text-orange-500 font-medium">₹60.00</span>
+                            <span class="text-xs bg-orange-100 text-orange-700 px-3 py-1 rounded">View Details</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="envelope-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 cursor-pointer" data-category="9x6" data-opening="side">
+                    <div class="h-48 bg-red-50 relative overflow-hidden envelope-image">
+                        <img src="9x6_cover 50.jpg" alt="Crimson Elegance Envelope" class="absolute inset-0 h-full w-full object-cover" />
+                        <div class="absolute bottom-2 right-2 bg-white px-2 py-1 rounded text-xs font-medium">9x6</div>
+                        <div class="absolute top-2 left-2 bg-blue-500 text-white px-2 py-1 rounded-full text-xs font-medium">side-Open</div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Crimson Elegance</h3>
+                        <p class="text-sm text-gray-600">Wedding Invitation</p>
+                        <div class="mt-3 flex justify-between items-center">
+                            <span class="text-orange-500 font-medium">₹60.00</span>
+                            <span class="text-xs bg-orange-100 text-orange-700 px-3 py-1 rounded">View Details</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="envelope-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 cursor-pointer" data-category="9x6" data-opening="side">
+                    <div class="h-48 bg-red-50 relative overflow-hidden envelope-image">
+                        <img src="9x6_cover 60 copy.jpg" alt="Crimson Elegance Envelope" class="absolute inset-0 h-full w-full object-cover" />
+                        <div class="absolute bottom-2 right-2 bg-white px-2 py-1 rounded text-xs font-medium">9x6</div>
+                        <div class="absolute top-2 left-2 bg-blue-500 text-white px-2 py-1 rounded-full text-xs font-medium">side-Open</div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Crimson Elegance</h3>
+                        <p class="text-sm text-gray-600">Wedding Invitation</p>
+                        <div class="mt-3 flex justify-between items-center">
+                            <span class="text-orange-500 font-medium">₹60.00</span>
+                            <span class="text-xs bg-orange-100 text-orange-700 px-3 py-1 rounded">View Details</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="envelope-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 cursor-pointer" data-category="9x6" data-opening="side">
+                    <div class="h-48 bg-red-50 relative overflow-hidden envelope-image">
+                        <img src="9x6_cover52.jpg" alt="Crimson Elegance Envelope" class="absolute inset-0 h-full w-full object-cover" />
+                        <div class="absolute bottom-2 right-2 bg-white px-2 py-1 rounded text-xs font-medium">9x6</div>
+                        <div class="absolute top-2 left-2 bg-blue-500 text-white px-2 py-1 rounded-full text-xs font-medium">side-Open</div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Crimson Elegance</h3>
+                        <p class="text-sm text-gray-600">Wedding Invitation</p>
+                        <div class="mt-3 flex justify-between items-center">
+                            <span class="text-orange-500 font-medium">₹60.00</span>
+                            <span class="text-xs bg-orange-100 text-orange-700 px-3 py-1 rounded">View Details</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="envelope-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 cursor-pointer" data-category="9x6" data-opening="top">
+                    <div class="h-48 bg-red-50 relative overflow-hidden envelope-image">
+                        <img src="9x6_cover85 copy.jpg" alt="Crimson Elegance Envelope" class="absolute inset-0 h-full w-full object-cover" />
+                        <div class="absolute bottom-2 right-2 bg-white px-2 py-1 rounded text-xs font-medium">9x6</div>
+                        <div class="absolute top-2 left-2 bg-orange-500 text-white px-2 py-1 rounded-full text-xs font-medium">Top-Open</div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Crimson Elegance</h3>
+                        <p class="text-sm text-gray-600">Wedding Invitation</p>
+                        <div class="mt-3 flex justify-between items-center">
+                            <span class="text-orange-500 font-medium">₹60.00</span>
+                            <span class="text-xs bg-orange-100 text-orange-700 px-3 py-1 rounded">View Details</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="envelope-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 cursor-pointer" data-category="9x6" data-opening="side">
+                    <div class="h-48 bg-red-50 relative overflow-hidden envelope-image">
+                        <img src="gruha wide R-gruprav 2.jpg" alt="Crimson Elegance Envelope" class="absolute inset-0 h-full w-full object-cover" />
+                        <div class="absolute bottom-2 right-2 bg-white px-2 py-1 rounded text-xs font-medium">9x6</div>
+                        <div class="absolute top-2 left-2 bg-blue-500 text-white px-2 py-1 rounded-full text-xs font-medium">side-Open</div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Crimson Elegance</h3>
+                        <p class="text-sm text-gray-600">Wedding Invitation</p>
+                        <div class="mt-3 flex justify-between items-center">
+                            <span class="text-orange-500 font-medium">₹60.00</span>
+                            <span class="text-xs bg-orange-100 text-orange-700 px-3 py-1 rounded">View Details</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="envelope-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 cursor-pointer" data-category="9x6" data-opening="top">
+                    <div class="h-48 bg-red-50 relative overflow-hidden envelope-image">
+                        <img src="R - 8.jpg" alt="Crimson Elegance Envelope" class="absolute inset-0 h-full w-full object-cover" />
+                        <div class="absolute bottom-2 right-2 bg-white px-2 py-1 rounded text-xs font-medium">9x6</div>
+                        <div class="absolute top-2 left-2 bg-orange-500 text-white px-2 py-1 rounded-full text-xs font-medium">Top-Open</div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Crimson Elegance</h3>
+                        <p class="text-sm text-gray-600">Wedding Invitation</p>
+                        <div class="mt-3 flex justify-between items-center">
+                            <span class="text-orange-500 font-medium">₹60.00</span>
+                            <span class="text-xs bg-orange-100 text-orange-700 px-3 py-1 rounded">View Details</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="envelope-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 cursor-pointer" data-category="9x6" data-opening="top">
+                    <div class="h-48 bg-red-50 relative overflow-hidden envelope-image">
+                        <img src="R- 12.jpg" alt="Crimson Elegance Envelope" class="absolute inset-0 h-full w-full object-cover" />
+                        <div class="absolute bottom-2 right-2 bg-white px-2 py-1 rounded text-xs font-medium">9x6</div>
+                        <div class="absolute top-2 left-2 bg-orange-500 text-white px-2 py-1 rounded-full text-xs font-medium">Top-Open</div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Crimson Elegance</h3>
+                        <p class="text-sm text-gray-600">Wedding Invitation</p>
+                        <div class="mt-3 flex justify-between items-center">
+                            <span class="text-orange-500 font-medium">₹60.00</span>
+                            <span class="text-xs bg-orange-100 text-orange-700 px-3 py-1 rounded">View Details</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="envelope-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 cursor-pointer" data-category="9x6" data-opening="top">
+                    <div class="h-48 bg-red-50 relative overflow-hidden envelope-image">
+                        <img src="R- 14.jpg" alt="Crimson Elegance Envelope" class="absolute inset-0 h-full w-full object-cover" />
+                        <div class="absolute bottom-2 right-2 bg-white px-2 py-1 rounded text-xs font-medium">9x6</div>
+                        <div class="absolute top-2 left-2 bg-orange-500 text-white px-2 py-1 rounded-full text-xs font-medium">Top-Open</div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Crimson Elegance</h3>
+                        <p class="text-sm text-gray-600">Wedding Invitation</p>
+                        <div class="mt-3 flex justify-between items-center">
+                            <span class="text-orange-500 font-medium">₹60.00</span>
+                            <span class="text-xs bg-orange-100 text-orange-700 px-3 py-1 rounded">View Details</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="envelope-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 cursor-pointer" data-category="9x6" data-opening="side">
+                    <div class="h-48 bg-red-50 relative overflow-hidden envelope-image">
+                        <img src="R -30.jpg" alt="Crimson Elegance Envelope" class="absolute inset-0 h-full w-full object-cover" />
+                        <div class="absolute bottom-2 right-2 bg-white px-2 py-1 rounded text-xs font-medium">9x6</div>
+                        <div class="absolute top-2 left-2 bg-blue-500 text-white px-2 py-1 rounded-full text-xs font-medium">side-Open</div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Crimson Elegance</h3>
+                        <p class="text-sm text-gray-600">Wedding Invitation</p>
+                        <div class="mt-3 flex justify-between items-center">
+                            <span class="text-orange-500 font-medium">₹60.00</span>
+                            <span class="text-xs bg-orange-100 text-orange-700 px-3 py-1 rounded">View Details</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="envelope-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 cursor-pointer" data-category="9x6" data-opening="side">
+                    <div class="h-48 bg-red-50 relative overflow-hidden envelope-image">
+                        <img src="R-11 copy.jpg" alt="Crimson Elegance Envelope" class="absolute inset-0 h-full w-full object-cover" />
+                        <div class="absolute bottom-2 right-2 bg-white px-2 py-1 rounded text-xs font-medium">9x6</div>
+                        <div class="absolute top-2 left-2 bg-blue-500 text-white px-2 py-1 rounded-full text-xs font-medium">side-Open</div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Crimson Elegance</h3>
+                        <p class="text-sm text-gray-600">Wedding Invitation</p>
+                        <div class="mt-3 flex justify-between items-center">
+                            <span class="text-orange-500 font-medium">₹60.00</span>
+                            <span class="text-xs bg-orange-100 text-orange-700 px-3 py-1 rounded">View Details</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="envelope-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 cursor-pointer" data-category="9x6" data-opening="side">
+                    <div class="h-48 bg-red-50 relative overflow-hidden envelope-image">
+                        <img src="R-16.jpg" alt="Crimson Elegance Envelope" class="absolute inset-0 h-full w-full object-cover" />
+                        <div class="absolute bottom-2 right-2 bg-white px-2 py-1 rounded text-xs font-medium">9x6</div>
+                        <div class="absolute top-2 left-2 bg-blue-500 text-white px-2 py-1 rounded-full text-xs font-medium">side-Open</div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Crimson Elegance</h3>
+                        <p class="text-sm text-gray-600">Wedding Invitation</p>
+                        <div class="mt-3 flex justify-between items-center">
+                            <span class="text-orange-500 font-medium">₹60.00</span>
+                            <span class="text-xs bg-orange-100 text-orange-700 px-3 py-1 rounded">View Details</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="envelope-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 cursor-pointer" data-category="9x6" data-opening="top">
+                    <div class="h-48 bg-red-50 relative overflow-hidden envelope-image">
+                        <img src="R-31.jpg" alt="Crimson Elegance Envelope" class="absolute inset-0 h-full w-full object-cover" />
+                        <div class="absolute bottom-2 right-2 bg-white px-2 py-1 rounded text-xs font-medium">9x6</div>
+                        <div class="absolute top-2 left-2 bg-orange-500 text-white px-2 py-1 rounded-full text-xs font-medium">Top-Open</div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Crimson Elegance</h3>
+                        <p class="text-sm text-gray-600">Wedding Invitation</p>
+                        <div class="mt-3 flex justify-between items-center">
+                            <span class="text-orange-500 font-medium">₹60.00</span>
+                            <span class="text-xs bg-orange-100 text-orange-700 px-3 py-1 rounded">View Details</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="envelope-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 cursor-pointer" data-category="9x6" data-opening="top">
+                    <div class="h-48 bg-red-50 relative overflow-hidden envelope-image">
+                        <img src="R-32.jpg" alt="Crimson Elegance Envelope" class="absolute inset-0 h-full w-full object-cover" />
+                        <div class="absolute bottom-2 right-2 bg-white px-2 py-1 rounded text-xs font-medium">9x6</div>
+                        <div class="absolute top-2 left-2 bg-orange-500 text-white px-2 py-1 rounded-full text-xs font-medium">Top-Open</div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Crimson Elegance</h3>
+                        <p class="text-sm text-gray-600">Wedding Invitation</p>
+                        <div class="mt-3 flex justify-between items-center">
+                            <span class="text-orange-500 font-medium">₹60.00</span>
+                            <span class="text-xs bg-orange-100 text-orange-700 px-3 py-1 rounded">View Details</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="envelope-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 cursor-pointer" data-category="9x6" data-opening="top">
+                    <div class="h-48 bg-red-50 relative overflow-hidden envelope-image">
+                        <img src="R-101.jpg" alt="Crimson Elegance Envelope" class="absolute inset-0 h-full w-full object-cover" />
+                        <div class="absolute bottom-2 right-2 bg-white px-2 py-1 rounded text-xs font-medium">9x6</div>
+                        <div class="absolute top-2 left-2 bg-orange-500 text-white px-2 py-1 rounded-full text-xs font-medium">Top-Open</div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Crimson Elegance</h3>
+                        <p class="text-sm text-gray-600">Wedding Invitation</p>
+                        <div class="mt-3 flex justify-between items-center">
+                            <span class="text-orange-500 font-medium">₹60.00</span>
+                            <span class="text-xs bg-orange-100 text-orange-700 px-3 py-1 rounded">View Details</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="envelope-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 cursor-pointer" data-category="9x6" data-opening="top">
+                    <div class="h-48 bg-red-50 relative overflow-hidden envelope-image">
+                        <img src="R-gruha1.jpg" alt="Crimson Elegance Envelope" class="absolute inset-0 h-full w-full object-cover" />
+                        <div class="absolute bottom-2 right-2 bg-white px-2 py-1 rounded text-xs font-medium">9x6</div>
+                        <div class="absolute top-2 left-2 bg-orange-500 text-white px-2 py-1 rounded-full text-xs font-medium">Top-Open</div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Crimson Elegance</h3>
+                        <p class="text-sm text-gray-600">Wedding Invitation</p>
+                        <div class="mt-3 flex justify-between items-center">
+                            <span class="text-orange-500 font-medium">₹60.00</span>
+                            <span class="text-xs bg-orange-100 text-orange-700 px-3 py-1 rounded">View Details</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- 6x8 Envelopes -->
+                <div class="envelope-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 cursor-pointer" data-category="6x8" data-opening="top">
+                    <div class="h-48 bg-teal-50 relative overflow-hidden envelope-image">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="absolute inset-0 h-full w-full text-teal-200 p-4" viewBox="0 0 20 20" fill="currentColor">
+                            <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
+                            <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
+                        </svg>
+                        <div class="absolute bottom-2 right-2 bg-white px-2 py-1 rounded text-xs font-medium">6x8</div>
+                        <div class="absolute top-2 left-2 bg-orange-500 text-white px-2 py-1 rounded-full text-xs font-medium">Top-Open</div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Teal Waves</h3>
+                        <p class="text-sm text-gray-600">Beach Wedding</p>
+                        <div class="mt-3 flex justify-between items-center">
+                            <span class="text-orange-500 font-medium">₹65.00</span>
+                            <span class="text-xs bg-orange-100 text-orange-700 px-3 py-1 rounded">View Details</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="envelope-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 cursor-pointer" data-category="6x8" data-opening="side">
+                    <div class="h-48 bg-amber-50 relative overflow-hidden envelope-image">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="absolute inset-0 h-full w-full text-amber-200 p-4" viewBox="0 0 20 20" fill="currentColor">
+                            <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
+                            <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
+                        </svg>
+                        <div class="absolute bottom-2 right-2 bg-white px-2 py-1 rounded text-xs font-medium">6x8</div>
+                        <div class="absolute top-2 left-2 bg-blue-500 text-white px-2 py-1 rounded-full text-xs font-medium">Side-Open</div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Golden Glow</h3>
+                        <p class="text-sm text-gray-600">Anniversary Invitation</p>
+                        <div class="mt-3 flex justify-between items-center">
+                            <span class="text-orange-500 font-medium">₹60.00</span>
+                            <span class="text-xs bg-orange-100 text-orange-700 px-3 py-1 rounded">View Details</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 8x5 Envelopes -->
+                <div class="envelope-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 cursor-pointer" data-category="8x5" data-opening="top">
+                    <div class="h-48 bg-lime-50 relative overflow-hidden envelope-image">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="absolute inset-0 h-full w-full text-lime-200 p-4" viewBox="0 0 20 20" fill="currentColor">
+                            <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
+                            <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
+                        </svg>
+                        <div class="absolute bottom-2 right-2 bg-white px-2 py-1 rounded text-xs font-medium">8x4</div>
+                        <div class="absolute top-2 left-2 bg-orange-500 text-white px-2 py-1 rounded-full text-xs font-medium">Top-Open</div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Fresh Green</h3>
+                        <p class="text-sm text-gray-600">Garden Party</p>
+                        <div class="mt-3 flex justify-between items-center">
+                            <span class="text-orange-500 font-medium">₹45.00</span>
+                            <span class="text-xs bg-orange-100 text-orange-700 px-3 py-1 rounded">View Details</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="envelope-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 cursor-pointer" data-category="8x5" data-opening="side">
+                    <div class="h-48 bg-cyan-50 relative overflow-hidden envelope-image">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="absolute inset-0 h-full w-full text-cyan-200 p-4" viewBox="0 0 20 20" fill="currentColor">
+                            <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
+                            <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
+                        </svg>
+                        <div class="absolute bottom-2 right-2 bg-white px-2 py-1 rounded text-xs font-medium">8x4</div>
+                        <div class="absolute top-2 left-2 bg-blue-500 text-white px-2 py-1 rounded-full text-xs font-medium">Side-Open</div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Ocean Blue</h3>
+                        <p class="text-sm text-gray-600">Baby Shower</p>
+                        <div class="mt-3 flex justify-between items-center">
+                            <span class="text-orange-500 font-medium">₹40.00</span>
+                            <span class="text-xs bg-orange-100 text-orange-700 px-3 py-1 rounded">View Details</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 6x6 Envelopes -->
+                <div class="envelope-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 cursor-pointer" data-category="6x6" data-opening="all">
+                    <div class="h-48 bg-rose-50 relative overflow-hidden envelope-image">
+                        <img src="6x6 A-7.jpg" alt="Crimson Elegance Envelope" class="absolute inset-0 h-full w-full object-cover" />
+                        <div class="absolute bottom-2 right-2 bg-white px-2 py-1 rounded text-xs font-medium">6x6</div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Rose Petal</h3>
+                        <p class="text-sm text-gray-600">Valentine's Day</p>
+                        <div class="mt-3 flex justify-between items-center">
+                            <span class="text-orange-500 font-medium">₹50.00</span>
+                            <span class="text-xs bg-orange-100 text-orange-700 px-3 py-1 rounded">View Details</span>
+                        </div>
+                    </div>
+                </div>
+                    <div class="envelope-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 cursor-pointer" data-category="6x6" data-opening="all">
+                    <div class="h-48 bg-rose-50 relative overflow-hidden envelope-image">
+                        <img src="6x6 A-8.jpg" alt="Crimson Elegance Envelope" class="absolute inset-0 h-full w-full object-cover" />
+                        <div class="absolute bottom-2 right-2 bg-white px-2 py-1 rounded text-xs font-medium">6x6</div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Rose Petal</h3>
+                        <p class="text-sm text-gray-600">Valentine's Day</p>
+                        <div class="mt-3 flex justify-between items-center">
+                            <span class="text-orange-500 font-medium">₹50.00</span>
+                            <span class="text-xs bg-orange-100 text-orange-700 px-3 py-1 rounded">View Details</span>
+                        </div>
+                    </div>
+                </div>
+                                <div class="envelope-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 cursor-pointer" data-category="6x6" data-opening="all">
+                    <div class="h-48 bg-rose-50 relative overflow-hidden envelope-image">
+                        <img src="6x6 A-12 .jpg" alt="Crimson Elegance Envelope" class="absolute inset-0 h-full w-full object-cover" />
+                        <div class="absolute bottom-2 right-2 bg-white px-2 py-1 rounded text-xs font-medium">6x6</div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Rose Petal</h3>
+                        <p class="text-sm text-gray-600">Valentine's Day</p>
+                        <div class="mt-3 flex justify-between items-center">
+                            <span class="text-orange-500 font-medium">₹50.00</span>
+                            <span class="text-xs bg-orange-100 text-orange-700 px-3 py-1 rounded">View Details</span>
+                        </div>
+                    </div>
+                </div>
+                                <div class="envelope-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 cursor-pointer" data-category="6x6" data-opening="all">
+                    <div class="h-48 bg-rose-50 relative overflow-hidden envelope-image">
+                        <img src="6x6 birthday 10.jpg" alt="Crimson Elegance Envelope" class="absolute inset-0 h-full w-full object-cover" />
+                        <div class="absolute bottom-2 right-2 bg-white px-2 py-1 rounded text-xs font-medium">6x6</div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Rose Petal</h3>
+                        <p class="text-sm text-gray-600">Valentine's Day</p>
+                        <div class="mt-3 flex justify-between items-center">
+                            <span class="text-orange-500 font-medium">₹50.00</span>
+                            <span class="text-xs bg-orange-100 text-orange-700 px-3 py-1 rounded">View Details</span>
+                        </div>
+                    </div>
+                </div>
+                                <div class="envelope-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 cursor-pointer" data-category="6x6" data-opening="all">
+                    <div class="h-48 bg-rose-50 relative overflow-hidden envelope-image">
+                        <img src="6x6 die cutting 4.jpg" alt="Crimson Elegance Envelope" class="absolute inset-0 h-full w-full object-cover" />
+                        <div class="absolute bottom-2 right-2 bg-white px-2 py-1 rounded text-xs font-medium">6x6</div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Rose Petal</h3>
+                        <p class="text-sm text-gray-600">Valentine's Day</p>
+                        <div class="mt-3 flex justify-between items-center">
+                            <span class="text-orange-500 font-medium">₹50.00</span>
+                            <span class="text-xs bg-orange-100 text-orange-700 px-3 py-1 rounded">View Details</span>
+                        </div>
+                    </div>
+                </div>
+                                <div class="envelope-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 cursor-pointer" data-category="6x6" data-opening="all">
+                    <div class="h-48 bg-rose-50 relative overflow-hidden envelope-image">
+                        <img src="A- 2.jpg" alt="Crimson Elegance Envelope" class="absolute inset-0 h-full w-full object-cover" />
+                        <div class="absolute bottom-2 right-2 bg-white px-2 py-1 rounded text-xs font-medium">6x6</div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Rose Petal</h3>
+                        <p class="text-sm text-gray-600">Valentine's Day</p>
+                        <div class="mt-3 flex justify-between items-center">
+                            <span class="text-orange-500 font-medium">₹50.00</span>
+                            <span class="text-xs bg-orange-100 text-orange-700 px-3 py-1 rounded">View Details</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Passport Covers -->
+                <div class="envelope-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 cursor-pointer" data-category="passport" data-opening="all">
+                    <div class="h-48 bg-blue-100 relative overflow-hidden envelope-image">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="absolute inset-0 h-full w-full text-blue-300 p-4" viewBox="0 0 20 20" fill="currentColor">
+                            <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
+                            <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
+                        </svg>
+                        <div class="absolute bottom-2 right-2 bg-white px-2 py-1 rounded text-xs font-medium">Passport</div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Travel Document</h3>
+                        <p class="text-sm text-gray-600">Passport Size Envelope</p>
+                        <div class="mt-3 flex justify-between items-center">
+                            <span class="text-orange-500 font-medium">₹30.00</span>
+                            <span class="text-xs bg-orange-100 text-orange-700 px-3 py-1 rounded">View Details</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Gift Covers -->
+                <div class="envelope-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 cursor-pointer" data-category="gift" data-opening="all">
+                    <div class="h-48 bg-purple-100 relative overflow-hidden envelope-image">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="absolute inset-0 h-full w-full text-purple-300 p-4" viewBox="0 0 20 20" fill="currentColor">
+                            <path fill-rule="evenodd" d="M5 5a3 3 0 015-2.236A3 3 0 0114.83 6H16a2 2 0 110 4h-5V9a1 1 0 10-2 0v1H4a2 2 0 110-4h1.17C5.06 5.687 5 5.35 5 5zm4 1V5a1 1 0 10-1 1h1zm3 0a1 1 0 10-1-1v1h1z" clip-rule="evenodd" />
+                            <path d="M9 11H3v5a2 2 0 002 2h4v-7zM11 18h4a2 2 0 002-2v-5h-6v7z" />
+                        </svg>
+                        <div class="absolute bottom-2 right-2 bg-white px-2 py-1 rounded text-xs font-medium">Gift</div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Luxury Gift</h3>
+                        <p class="text-sm text-gray-600">Special Occasion</p>
+                        <div class="mt-3 flex justify-between items-center">
+                            <span class="text-orange-500 font-medium">₹70.00</span>
+                            <span class="text-xs bg-orange-100 text-orange-700 px-3 py-1 rounded">View Details</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Wrong Sizes -->
+                <div class="envelope-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 cursor-pointer" data-category="wrong" data-opening="all">
+                    <div class="h-48 bg-gray-100 relative overflow-hidden envelope-image">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="absolute inset-0 h-full w-full text-gray-300 p-4" viewBox="0 0 20 20" fill="currentColor">
+                            <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
+                            <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
+                        </svg>
+                        <div class="absolute bottom-2 right-2 bg-white px-2 py-1 rounded text-xs font-medium">Custom</div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Custom Size</h3>
+                        <p class="text-sm text-gray-600">Special Request</p>
+                        <div class="mt-3 flex justify-between items-center">
+                            <span class="text-orange-500 font-medium">₹65.00</span>
+                            <span class="text-xs bg-orange-100 text-orange-700 px-3 py-1 rounded">View Details</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Load More Button -->
+            <div class="mt-10 text-center">
+                <button class="px-6 py-3 bg-white text-orange-500 font-medium rounded-md border border-orange-500 hover:bg-orange-50 transition duration-300">Load More Designs</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Image Modal -->
+    <div id="imageModal" class="modal">
+        <span class="close">×</span>
+        <div class="flex items-center justify-center h-full">
+            <div class="bg-white p-4 rounded-lg shadow-lg max-w-3xl w-full mx-4">
+                <div class="relative">
+                    <div id="modalImage" class="h-64 md:h-96 bg-gray-100 rounded-lg overflow-hidden flex items-center justify-center">
+                        <!-- Image will be inserted here by JavaScript -->
+                    </div>
+                </div>
+                <div class="mt-4">
+                    <h3 id="modalTitle" class="text-xl font-semibold text-gray-800"></h3>
+                    <p id="modalDescription" class="text-gray-600 mt-1"></p>
+                    <div class="mt-4 flex justify-between items-center">
+                        <div>
+                            <span id="modalSize" class="bg-gray-100 text-gray-700 px-3 py-1 rounded-md text-sm mr-2"></span>
+                            <span id="modalOpening" class="bg-orange-100 text-orange-700 px-3 py-1 rounded-md text-sm"></span>
+                        </div>
+                        <span id="modalPrice" class="text-orange-500 font-medium"></span>
+                    </div>
+                    <div class="mt-6 flex justify-end">
+                        <button class="bg-orange-500 text-white px-6 py-2 rounded-md hover:bg-orange-600 transition duration-300">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <section id="about" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 mb-10 md:mb-0">
+                    <div class="relative">
+                        <div class="absolute -top-4 -left-4 w-64 h-64 bg-orange-200 rounded-full opacity-50"></div>
+                        <div class="relative z-10 bg-orange-100 p-6 rounded-lg shadow-lg">
+                            <div class="grid grid-cols-2 gap-4">
+                                <div class="bg-white p-2 rounded shadow-sm transform rotate-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-32 w-32 text-orange-400" viewBox="0 0 20 20" fill="currentColor">
+                                        <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
+                                        <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
+                                    </svg>
+                                </div>
+                                <div class="bg-white p-2 rounded shadow-sm transform -rotate-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-32 w-32 text-orange-500" viewBox="0 0 20 20" fill="currentColor">
+                                        <path fill-rule="evenodd" d="M5 2a1 1 0 011 1v1h1a1 1 0 010 2H6v1a1 1 0 01-2 0V6H3a1 1 0 010-2h1V3a1 1 0 011-1zm0 10a1 1 0 011 1v1h1a1 1 0 110 2H6v1a1 1 0 11-2 0v-1H3a1 1 0 110-2h1v-1a1 1 0 011-1zM12 2a1 1 0 01.967.744L14.146 7.2 17.5 9.134a1 1 0 010 1.732l-3.354 1.935-1.18 4.455a1 1 0 01-1.933 0L9.854 12.8 6.5 10.866a1 1 0 010-1.732l3.354-1.935 1.18-4.455A1 1 0 0112 2z" clip-rule="evenodd" />
+                                    </svg>
+                                </div>
+                                <div class="bg-white p-2 rounded shadow-sm transform -rotate-1">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-32 w-32 text-orange-300" viewBox="0 0 20 20" fill="currentColor">
+                                        <path d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" />
+                                    </svg>
+                                </div>
+                                <div class="bg-white p-2 rounded shadow-sm transform rotate-1">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-32 w-32 text-orange-600" viewBox="0 0 20 20" fill="currentColor">
+                                        <path fill-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clip-rule="evenodd" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="md:w-1/2 md:pl-10">
+                    <h2 class="text-3xl font-bold heading text-gray-800 mb-4">About <span class="text-orange-500">Classic Covers</span></h2>
+                    <div class="w-24 h-1 bg-orange-500 mb-6"></div>
+                    <p class="text-gray-600 mb-4">Classic Covers has been crafting premium quality envelope designs for over a decade. We take pride in our attention to detail and commitment to excellence.</p>
+                    <p class="text-gray-600 mb-6">Our team of skilled designers creates unique and elegant envelope covers for all occasions, ensuring that your special moments are complemented with the perfect presentation.</p>
+                    <div class="grid grid-cols-2 gap-4">
+                        <div class="flex items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-orange-500 mr-2" viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                            </svg>
+                            <span class="text-gray-700">Premium Materials</span>
+                        </div>
+                        <div class="flex items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-orange-500 mr-2" viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                            </svg>
+                            <span class="text-gray-700">Custom Designs</span>
+                        </div>
+                        <div class="flex items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-orange-500 mr-2" viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                            </svg>
+                            <span class="text-gray-700">Fast Delivery</span>
+                        </div>
+                        <div class="flex items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-orange-500 mr-2" viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                            </svg>
+                            <span class="text-gray-700">Bulk Orders</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold heading text-gray-800">Get In <span class="text-orange-500">Touch</span></h2>
+                <div class="w-24 h-1 bg-orange-500 mx-auto mt-4"></div>
+                <p class="mt-4 text-gray-600 max-w-2xl mx-auto">Have questions or need a custom design? Reach out to us and our team will be happy to assist you.</p>
+            </div>
+            <div class="flex flex-col md:flex-row gap-8">
+                <div class="md:w-1/2 bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold mb-4">Send Us a Message</h3>
+                    <form class="space-y-4">
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                            <div>
+                                <label class="block text-gray-700 text-sm font-medium mb-1" for="name">Name</label>
+                                <input type="text" id="name" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-transparent" placeholder="Your Name">
+                            </div>
+                            <div>
+                                <label class="block text-gray-700 text-sm font-medium mb-1" for="email">Email</label>
+                                <input type="email" id="email" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-transparent" placeholder="Your Email">
+                            </div>
+                        </div>
+                        <div>
+                            <label class="block text-gray-700 text-sm font-medium mb-1" for="subject">Subject</label>
+                            <input type="text" id="subject" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-transparent" placeholder="Subject">
+                        </div>
+                        <div>
+                            <label class="block text-gray-700 text-sm font-medium mb-1" for="message">Message</label>
+                            <textarea id="message" rows="4" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-transparent" placeholder="Your Message"></textarea>
+                        </div>
+                        <div>
+                            <button type="submit" class="w-full bg-orange-500 text-white font-medium py-2 px-4 rounded-md hover:bg-orange-600 transition duration-300">Send Message</button>
+                            <!-- <p class="text-xs text-gray-500 mt-2 text-center">This is a demo form. In a real implementation, this would send your message to our team.</p> -->
+                        </div>
+                    </form>
+                </div>
+                <div class="md:w-1/2 bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold mb-4">Contact Information</h3>
+                    <div class="space-y-4">
+                        <div class="flex items-start">
+                            <div class="flex-shrink-0 mt-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-orange-500" viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd" />
+                                </svg>
+                            </div>
+                            <div class="ml-3">
+                                <h4 class="text-gray-800 font-medium">Address</h4>
+                                <p class="text-gray-600">#26-3-21,Near Kareem Hotel,N.R.P.Road,, Gandhi Nagar, Vijayawada, Andhra Pradesh 520003, India</p>
+                                <a href="https://maps.app.goo.gl/JuqDkd5yBU8Wwuyq7"><u>Location</u></a>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <div class="flex-shrink-0 mt-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-orange-500" viewBox="0 0 20 20" fill="currentColor">
+                                    <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
+                                </svg>
+                            </div>
+                            <div class="ml-3">
+                                <h4 class="text-gray-800 font-medium">Phone</h4>
+                                <p class="text-gray-600">+91 9885671423</p>
+                                <!-- <p class="text-gray-600">+91 12345 67890</p> -->
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <div class="flex-shrink-0 mt-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-orange-500" viewBox="0 0 20 20" fill="currentColor">
+                                    <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
+                                    <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
+                                </svg>
+                            </div>
+                            <div class="ml-3">
+                                <h4 class="text-gray-800 font-medium">Email</h4>
+                                <p class="text-gray-600">classicsekhar@gmail.com</p>
+                                <!-- <p class="text-gray-600">support@classiccovers.com</p> -->
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <div class="flex-shrink-0 mt-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-orange-500" viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clip-rule="evenodd" />
+                                </svg>
+                            </div>
+                            <div class="ml-3">
+                                <h4 class="text-gray-800 font-medium">Business Hours</h4>
+                                <p class="text-gray-600">Monday - Saturday: 10:00 AM - 9:00 PM</p>
+                                <p class="text-gray-600">Sunday: 10:00 AM - 2:00 PM</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-6">
+                        <h3 class="text-xl font-semibold mb-4">Follow Us</h3>
+                        <div class="flex space-x-4">
+                            <a href="#" class="bg-orange-100 hover:bg-orange-200 text-orange-500 p-2 rounded-full transition duration-300">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
+                                    <path d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" />
+                                </svg>
+                            </a>
+                            <a href="#" class="bg-orange-100 hover:bg-orange-200 text-orange-500 p-2 rounded-full transition duration-300">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
+                                    <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z" />
+                                </svg>
+                            </a>
+                            <a href="#" class="bg-orange-100 hover:bg-orange-200 text-orange-500 p-2 rounded-full transition duration-300">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
+                                    <path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84" />
+                                </svg>
+                            </a>
+                            <a href="#" class="bg-orange-100 hover:bg-orange-200 text-orange-500 p-2 rounded-full transition duration-300">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
+                                    <path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-6 md:mb-0">
+                    <div class="flex items-center space-x-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-orange-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                        </svg>
+                        <span class="text-xl font-bold heading">Classic <span class="text-orange-500">Covers</span></span>
+                    </div>
+                    <p class="mt-2 text-gray-400 text-sm">Crafting premium envelope designs since 2010.</p>
+                </div>
+                <div class="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-8">
+                    <a href="#" class="text-gray-400 hover:text-orange-500 transition duration-300">Home</a>
+                    <a href="#categories" class="text-gray-400 hover:text-orange-500 transition duration-300">Categories</a>
+                    <a href="#about" class="text-gray-400 hover:text-orange-500 transition duration-300">About Us</a>
+                    <a href="#contact" class="text-gray-400 hover:text-orange-500 transition duration-300">Contact</a>
+                </div>
+            </div>
+            <div class="mt-6 border-t border-gray-700 pt-4 text-center text-gray-400 text-sm">
+                <p>&copy; 2023 Classic Covers. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript for Button Functionality -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const categoryButtons = document.querySelectorAll('.category-btn');
+            const openingButtons = document.querySelectorAll('.opening-btn');
+            const envelopes = document.querySelectorAll('.envelope-card');
+            const openingFilters = document.getElementById('opening-filters');
+
+            function filterEnvelopes(category, opening) {
+                envelopes.forEach(envelope => {
+                    const envelopeCategory = envelope.getAttribute('data-category');
+                    const envelopeOpening = envelope.getAttribute('data-opening');
+                    let show = false;
+                    if (category === 'all' || category === envelopeCategory) {
+                        if (opening === 'all' || opening === envelopeOpening) {
+                            show = true;
+                        }
+                    }
+                    envelope.style.display = show ? 'block' : 'none';
+                });
+            }
+
+            categoryButtons.forEach(button => {
+                button.addEventListener('click', () => {
+                    categoryButtons.forEach(btn => btn.classList.remove('active'));
+                    button.classList.add('active');
+                    const selectedCategory = button.getAttribute('data-category');
+                    const standardCategories = ['6x4', '7x5', '8x5', '9x6', '6x8', '8x4'];
+                    if (selectedCategory === 'all' || standardCategories.includes(selectedCategory)) {
+                        openingFilters.classList.remove('hidden');
+                    } else {
+                        openingFilters.classList.add('hidden');
+                    }
+                    openingButtons.forEach(btn => btn.classList.remove('active'));
+                    const allOpeningButton = document.querySelector('.opening-btn[data-opening="all"]');
+                    allOpeningButton.classList.add('active');
+                    filterEnvelopes(selectedCategory, 'all');
+                });
+            });
+
+            openingButtons.forEach(button => {
+                button.addEventListener('click', () => {
+                    openingButtons.forEach(btn => btn.classList.remove('active'));
+                    button.classList.add('active');
+                    const selectedOpening = button.getAttribute('data-opening');
+                    const selectedCategory = document.querySelector('.category-btn.active').getAttribute('data-category');
+                    filterEnvelopes(selectedCategory, selectedOpening);
+                });
+            });
+
+            // Simulate click on "All Sizes" button on page load
+            const allSizesButton = document.querySelector('.category-btn[data-category="all"]');
+            allSizesButton.click();
+        });
+    </script>
+</body>
+</html>
